@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darel Martínez Caballero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --text-color: #e0e0e0;
+            --primary-color: #007bff; /* Color azul para enlaces */
+            --accent-color: #ff5252; /* Color de acento para algunos elementos */
+            --card-bg: #1e1e1e;
+            --border-color: #333;
+            --heading-color: #fff;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+
+        .header-content {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            color: var(--heading-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .header-content h1 span {
+            color: var(--accent-color);
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .intro p strong {
+            color: var(--primary-color);
+        }
+
+        .section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            color: var(--heading-color);
+        }
+
+        .stats-container,
+        .projects-container,
+        .tech-container,
+        .contributions-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .stats-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .projects-container ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+
+        .projects-container li {
+            background-color: #2a2a2a;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            transition: transform 0.2s;
+        }
+
+        .projects-container li:hover {
+            transform: translateY(-5px);
+        }
+
+        .projects-container li a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .projects-container li a:hover {
+            color: var(--primary-color);
+        }
+        
+        .projects-container li p {
+            margin: 0.5rem 0 0;
+            color: #ccc;
+        }
+
+        .tech-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .tech-badges img {
+            height: 30px; /* Tamaño consistente para los badges */
+        }
+
+        .link-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .link-list a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .link-list a:hover {
+            color: var(--accent-color);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            .section {
+                padding: 1.5rem;
+            }
+            .header-content h1 {
+                font-size: 2rem;
+            }
+            .intro p {
+                font-size: 1rem;
+            }
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-content">
+            <h1>Hola! Soy <strong>Darel Martínez Caballero</strong> <span>👾</span></h1>
+            <p class="intro">
+                Soy un <strong>desarrollador</strong> con experiencia en una variedad de tecnologías. Me apasiona resolver problemas y aprender nuevas herramientas para crear soluciones robustas y escalables.
+            </p>
+            <p class="intro">
+                🌱 Actualmente profundizando en **algoritmos**, **estructuras de datos**, y tecnologías como **NestJS**, **FastAPI**, y **Vue.js**.
+            </p>
+            <p class="intro">
+                💬 Si te interesa hablar de desarrollo o colaborar en proyectos, ¡no dudes en contactarme!
+            </p>
+            <ul class="link-list">
+                <li><a href="https://www.linkedin.com/in/darel-mart%C3%ADnez-9a7606181/?originalSubdomain=es" target="_blank">LinkedIn</a></li>
+                <li><a href="https://darelmartinez.com" target="_blank">Sitio Web</a></li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>🚀 Mis Estadísticas de CodeWars</h2>
+            <div class="stats-container">
+                <a href="https://www.codewars.com/users/DarelShroo" target="_blank">
+                    <img src="https://www.codewars.com/users/DarelShroo/badges/large" alt="Estadísticas de CodeWars">
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📈 Estadísticas de GitHub</h2>
+            <div class="stats-container">
+                <img src="https://github-readme-stats.vercel.app/api?username=DarelShroo&show_icons=true&count_private=true&hide_title=true&hide_border=true&theme=radical" alt="Estadísticas de GitHub">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🧑‍💻 Proyectos Destacados</h2>
+            <div class="projects-container">
+                <ul>
+                    <li>
+                        <a href="https://github.com/DarelShroo/cultivatuhongo" target="_blank">almogrote/cultivatuhongo</a>
+                        <p>Proyecto en **Vue.js** para el cultivo de hongos en casa.</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/DarelShroo/AguloRA" target="_blank">AguloRA</a>
+                        <p>Aplicación de Realidad Aumentada en **Unity** usando **EasyAR** para proporcionar información turística sobre **Agulo**, La Gomera.</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/DarelShroo/BackupBumblebee_API" target="_blank">BackupBumblebee_API</a>
+                        <p>API en **Python** para copias de seguridad automatizadas.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Tecnologías y Frameworks que Conozco</h2>
+            <div class="tech-badges">
+                <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP Badge">
+                <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java Badge">
+                <img src="https://img.shields.io/badge/JavaScript-100000?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript Badge">
+                <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge">
+                <img src="https://img.shields.io/badge/Python-306998?style=for-for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+                <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS Badge">
+                <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI Badge">
+                <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js Badge">
+                <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel Badge">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🌍 Contribuciones Recientes</h2>
+            <div class="stats-container">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=DarelShroo&theme=radical" alt="Contribuciones de GitHub">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
