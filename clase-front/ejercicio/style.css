@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.card-container {
+  position: absolute;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  position: relative;
+  float: left;
+  width: 200px;
+}

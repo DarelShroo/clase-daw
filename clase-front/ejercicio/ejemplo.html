@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interfaz Chula</title>
+<style>
+    /* Reset rápido */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #fff;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        width: 90%;
+        max-width: 1000px;
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        transform: translateY(-10px) scale(1.05);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    }
+
+    .card h2 {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        color: #fff;
+    }
+
+    .card p {
+        font-size: 1em;
+        line-height: 1.5;
+        color: #e0e0e0;
+    }
+
+    .card button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        background: #ff6a00;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.3s;
+    }
+
+    .card button:hover {
+        background: #ff9a3c;
+        transform: scale(1.05);
+    }
+
+    /* Animación de fondo */
+    @keyframes gradientBG {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+
+    body {
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2>Card 1</h2>
+        <p>Esto es una tarjeta interactiva con efecto hover y fondo borroso. Muy chula para cualquier interfaz.</p>
+        <button>Ver más</button>
+    </div>
+    <div class="card">
+        <h2>Card 2</h2>
+        <p>Puedes agregar más tarjetas, ajustar colores, y cambiar contenido como quieras.</p>
+        <button>Ver más</button>
+    </div>
+    <div class="card">
+        <h2>Card 3</h2>
+        <p>Ideal para dashboards, perfiles de usuario, o secciones destacadas de tu web.</p>
+        <button>Ver más</button>
+    </div>
+</div>
+
+</body>
+</html>
