@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio de Darel</h1>
+      <nav>
+        <a class="link" href="#experiencia">Experiencia</a>
+        <a class="link" href="#proyectos">Proyectos</a>
+        <a
+          class="link"
+          href="https://github.com/DarelShroo"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+      </nav>
+    </header>
+    <dialog id="dialog">
+      <h1>Sabías que puedes abrir un dialog a si?</h1>
+      <p>¡Y es totalmente nativo!</p>
+      <button id="hide">Cerrar modal</button>
+    </dialog>
+    <button id="show">Ver más información</button>
+
+    <script>
+      window.show.addEventListener('click', () => {
+        window.dialog.showModal();
+      });
+      window.hide.addEventListener('click', () => {
+        window.dialog.close();
+      });
+    </script>
+    <main>
+      <p class="description">
+        + 2 años de experiencia en el desarrollo de aplicaciones web como
+        <strong>fullstack</strong> con tecnologías como HTML, CSS y JavaScript.
+      </p>
+      <h2 id="experiencia">Experiencia</h2>
+
+      <ul>
+        <li class="list-item">Velocitech</li>
+        <li class="list-item">Iventado</li>
+        <li class="list-item">Crokis Multimedia</li>
+      </ul>
+    </main>
+
+    <div class="container">
+      <h1 class="block">Etiqueta en bloque</h1>
+      <span class="box"></span>
+      <span class="box"></span>
+    </div>
+    <section id="proyectos">
+      <h2>Proyectos destacados</h2>
+      <ul>
+        <li>Proyecto 1</li>
+        <li>Proyecto 2</li>
+        <li>Proyecto 3</li>
+      </ul>
+    </section>
+    <section class="section-container-2">
+      <div class="container-2">container 2</div>
+    </section>
+  </body>
+</html>

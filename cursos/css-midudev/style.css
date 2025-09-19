@@ -1,0 +1,131 @@
+h1 {
+  color: blue;
+  /*border-width: 3px;
+  border-style: solid;
+  border-color: currentColor;*/
+}
+
+body {
+  background-color: #774561;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*
+  color: rgb(0,0,0);
+  color: rgba(0,0,0,0.5) con opacidad Legacy;
+  color: rgb(0 0 0 / 50%); -> forma recomendada (moderno)
+  color: hsl(matiz, saturacion, luminosidad);
+  color: oklch(lighness, chroma, hue);
+  color: transparent
+  */
+}
+
+.link {
+  color: red;
+}
+
+#show {
+  background-color: #09f;
+  color: white;
+  border: 0;
+}
+
+.description {
+  border: 1px solid red;
+  /*
+  border: initial; -> Resetea la propiedad a su valor inicial por defecto definido en la especificación CSS
+  border: inherit; -> Hace que la propiedad herede el valor del elemento padre.
+  border: unset; -> Resetea la propiedad a su valor inicial por defecto definido en la especificación CSS
+  border: revert; -> Revierte al valor del user-agent stylesheet (los estilos por defecto del navegador) o de la cascada anterior (p. ej., los estilos de un framework).
+  */
+}
+
+.link:hover {
+  /*border: 3px solid green;*/
+  outline: 10px solid red;
+}
+
+.link:active {
+  outline: 10px solid blue;
+}
+
+input:focus {
+  border: 1px solid yellow;
+}
+
+li:first-child {
+  color: pink;
+}
+
+li:last-child {
+  color: purple;
+}
+
+main p {
+  /*Hijo*/
+  color: whitesmoke;
+}
+
+article > p {
+  /*Hijo directo*/
+  color: yellow;
+}
+
+article ~ p {
+  /*Todos los hermanos*/
+  color: red;
+}
+
+article + p {
+  /*Primer hermano directo*/
+  color: #09f;
+  color: oklch(10% 0.148 238.24);
+}
+
+body {
+  height: 100vh;
+  background-color: wheat;
+  margin: 0; /* Resetea los márgenes, body trae márgenes por defecto */
+}
+
+.container {
+  width: 250px;
+  /*height: 50%; Necesita ser declarado en el padre*/
+  height: 250px;
+  background-color: red;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box; /*Hace que el padding y margin se sumen al width y height */
+  /*padding: arriba derecha abajo izquierda*/
+  /*padding: arriba/abajo derecha/izquierda*/
+  /*margin: 10px;*/
+  overflow: auto;
+  text-overflow: '>';
+}
+
+.box {
+  display: block; /*El display por defecto es inline, no le afecta el width ni el height*/
+  width: 100px;
+  height: 50px;
+  background-color: #09f;
+}
+
+.block {
+  font-size: 100px; /*desbordamiento*/
+}
+
+.section-container-2 {
+  border: 5px solid #000;
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+}
+
+.container-2 {
+  background-color: #09f;
+  height: 100px;
+  width: 100px;
+  /*centrar un modal*/
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
