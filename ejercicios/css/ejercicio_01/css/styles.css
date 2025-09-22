@@ -1,0 +1,14 @@
+.container-text-top {
+  width: 35%;
+  text-align: center;
+}
+
+.title-pricing {
+  font-size: 3em;
+}
+
+.container-pricing {
+  margin-top: 50px;
+  max-width: 70%;
+}
+

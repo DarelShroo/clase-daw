@@ -1,0 +1,38 @@
+:root {
+  --background-color: #eafaf1;
+  --button-color: #1fe374;
+  --green-color: #00ad6a;
+  --background-footer-color: #080c16;
+  --grey-color: #d6dae5;
+  --white-color: #fcfcfc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text-top {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.container-text-top > * {
+  margin: 0
+}
