@@ -1,3 +1,26 @@
+:root {
+  --background-color: #eafaf1;
+  --button-color: #1fe374;
+  --green-color: #00ad6a;
+  --background-footer-color: #080c16;
+  --grey-color: #d6dae5;
+  --white-color: #fcfcfc;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+}
+
+.header {
+  padding: 5% 12% 5% 12%;
+}
+
+.container-header > * {
+  color: var(--green-color);
+  font-weight: bold;
+}
+
 .container-text-top {
   width: 35%;
   text-align: center;
@@ -12,3 +35,79 @@
   max-width: 70%;
 }
 
+.recommended {
+  text-align: center;
+  color: var(--grey-color);
+  background-color: var(--green-color);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.container-business-plan {
+  border: 1px solid var(--button-color);
+  width: 20%;
+}
+
+.title-business-plan {
+  text-align: center;
+  font-size: 3em;
+  color: var(--green-color);
+}
+.title-extra-features {
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.7em;
+}
+
+.price-business-plan,
+.price-extra-features {
+  text-align: center;
+}
+
+.btn-try-premium,
+.btn-sign-up-now {
+  margin: 20px;
+  max-width: 200px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  background-color: var(--button-color);
+  border: 0px;
+}
+
+.text-container-extra-features {
+  background-color: var(--grey-color);
+  padding: 20px;
+  font-size: 13px;
+}
+
+.text-extra-features,
+.text-business-plan {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.box-container-title-business-plan {
+  display: flex;
+  justify-content: center;
+}
+
+.container-title-business-plan {
+  max-width: 200px;
+}
+
+.link-get-them-now {
+  color: black;
+}
+
+.container-faq {
+  padding: 5% 12% 5% 12%;
+}
+
+.title-faq {
+  font-size:35px;
+}
+
+.container-text-faqs > * {
+  flex: 1 1 400px;
+}

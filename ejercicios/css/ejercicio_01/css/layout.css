@@ -1,12 +1,3 @@
-:root {
-  --background-color: #eafaf1;
-  --button-color: #1fe374;
-  --green-color: #00ad6a;
-  --background-footer-color: #080c16;
-  --grey-color: #d6dae5;
-  --white-color: #fcfcfc;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -14,15 +5,50 @@
 
 .section {
   display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.container-section-pricing {
+  display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  max-width: 1500px;
 }
 
 .container-pricing {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
+}
+
+.recommended {
+  display: flex;
+  justify-content: center;
+}
+
+.container-pricing > * {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-pricing > * > .title-basic-plan,.title-business-plan,.text-container-extra-features{
+  margin: 0;
+}
+
+.container-basic-plan {
+  flex: 1;
+}
+
+.container-business-plan {
+  flex: 1;
+}
+
+.container-extra-features {
+  flex: 1;
 }
 
 .container-text-top {
@@ -35,4 +61,24 @@
 
 .container-text-top > * {
   margin: 0
+}
+
+.container-btn-try-premium, .container-btn-sign-up, .container-text-extra-features, .container-text-business-plan {
+  display: flex;
+  justify-content: center;
+}
+
+.container-faq {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container-text-faqs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 750px;
+  gap: 10px;
 }
