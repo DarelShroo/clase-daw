@@ -1,0 +1,97 @@
+erDiagram
+    PROVEEDORES {
+        int id_proveedor PK
+        string nombre
+        string direccion
+        string telefono
+        string email
+    }
+
+    UNIDADES {
+        int id_unidad PK
+        string nombre
+    }
+
+    ALBARANES {
+        int id_albaran PK
+        int id_proveedor FK
+        int id_unidad FK
+        int id_impuesto FK
+        int n_albaran
+        string descripcion
+        int cantidad
+        string observaciones
+        decimal coste_total
+        boolean concordancia
+    }
+
+    IMPUESTOS {
+        int id_impuesto PK
+        string nombre
+        decimal porcentaje
+    }
+
+    PROFESORES {
+        int id_profesor PK
+        string nombre
+        string departamento
+        string email
+    }
+
+    PEDIDO_INTERNO {
+        int id_distribucion PK
+        int id_profesor FK
+        int id_unidad FK
+        date fecha_pedido
+        date fecha_entrega
+        string descripcion
+        int cantidad
+        decimal coste_kg
+        decimal coste_total
+    }
+
+    BAJAS {
+        int id_bajas PK
+        int id_unidad FK
+        date fecha_baja
+        string descripcion
+        int cantidad
+        decimal coste
+        int coste_total
+        string observaciones
+    }
+
+    INFORME_INVENTARIO {
+        int id_informe_inventario PK
+        string descripcion
+        int cantidad
+        string valoracion_monetaria
+        int total_items
+        int total_vm
+    }
+
+    INGREDIENTES {
+        int id_ingrediente PK
+        string name
+        string image
+    }
+
+    RENDIMIENTO {
+        int id_rendimiento PK
+        int id_ingrediente FK
+        decimal peso_bruto
+        decimal peso_neto
+        string desperdicio
+        decimal porcentaje_total
+        decimal porcentaje_rendimiento
+        decimal porcentaje_merma
+
+    }
+
+    PROVEEDORES o{--|| ALBARANES : "pertenece a"
+    UNIDADES o{--|| ALBARANES : "detalla"
+    IMPUESTOS O{--|| ALBARANES : "contiene"
+    PROFESORES O{--|| PEDIDO_INTERNO : "genera"
+    UNIDADES O{--|| PEDIDO_INTERNO : "detalla"
+    UNIDADES O{--|| BAJAS : "detalla"
+    INGREDIENTES o{--|| RENDIMIENTO : "tiene"
