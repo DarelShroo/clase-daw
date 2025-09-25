@@ -1,10 +1,17 @@
 erDiagram
     PROVEEDORES {
         int id_proveedor PK
+        int id_usuario FK
         string nombre
         string direccion
         string telefono
         string email
+    }
+    
+    ALUMNOS {
+    	int id_alumno PK
+    	int id_usario FK
+    	string nombre
     }
 
     UNIDADES {
@@ -38,7 +45,7 @@ erDiagram
         string email
     }
 
-    PEDIDO_INTERNO {
+    PEDIDOS_INTERNO {
         int id_distribucion PK
         int id_profesor FK
         int id_unidad FK
@@ -61,7 +68,7 @@ erDiagram
         string observaciones
     }
 
-    INFORME_INVENTARIO {
+    INFORMES_INVENTARIO {
         int id_informe_inventario PK
         string descripcion
         int cantidad
@@ -70,28 +77,37 @@ erDiagram
         int total_vm
     }
 
-    INGREDIENTES {
-        int id_ingrediente PK
-        string name
-        string image
+    PRODUCTOS {
+        int id_producto PK
+        string nombre
+        string imagen
+        int codigo
     }
 
-    RENDIMIENTO {
+    RENDIMIENTOS {
         int id_rendimiento PK
-        int id_ingrediente FK
+        int id_producto FK
         decimal peso_bruto
         decimal peso_neto
         string desperdicio
         decimal porcentaje_total
         decimal porcentaje_rendimiento
         decimal porcentaje_merma
-
     }
+    
+    USUARIOS {
+    	int id_usuario PK
+ 	string usuario
+ 	string password
+    }
+    
 
     PROVEEDORES o{--|| ALBARANES : "pertenece a"
     UNIDADES o{--|| ALBARANES : "detalla"
     IMPUESTOS O{--|| ALBARANES : "contiene"
-    PROFESORES O{--|| PEDIDO_INTERNO : "genera"
-    UNIDADES O{--|| PEDIDO_INTERNO : "detalla"
+    PROFESORES O{--|| PEDIDOS_INTERNO : "genera"
+    UNIDADES O{--|| PEDIDOS_INTERNO : "detalla"
     UNIDADES O{--|| BAJAS : "detalla"
-    INGREDIENTES o{--|| RENDIMIENTO : "tiene"
+    PRODUCTOS o{--|| RENDIMIENTOS : "tiene"
+    USUARIOS ||--o{ ALUMNOS : "tiene"
+    USUARIOS ||--o{ PROFESORES : "tiene"
