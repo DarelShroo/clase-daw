@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <object alt="" name="Image7" object_type="graphic"/>
+ <object alt="" name="Image1" object_type="graphic"/>
+ <object alt="" name="Image2" object_type="graphic"/>
+ <object alt="" name="Image3" object_type="graphic"/>
+ <object alt="" name="Image4" object_type="graphic"/>
+ <object alt="" name="Image5" object_type="graphic"/>
+ <object alt="" name="Image6" object_type="graphic"/>
+ <paragraph index="30" node_type="writer">IES DOMINGO PÉREZ MINIK</paragraph>
+ <paragraph index="31" node_type="writer">Asignatura: Inteligencia Artificial</paragraph>
+ <paragraph index="32" node_type="writer">
+
+</paragraph>
+ <paragraph index="33" node_type="writer">Trabajo: UD01A02</paragraph>
+ <paragraph index="34" node_type="writer">Alumno: Martínez Caballero Darel</paragraph>
+ <paragraph index="35" node_type="writer">Fecha: Septiembre 2025</paragraph>
+ <paragraph index="37" node_type="writer">Introducción</paragraph>
+ <paragraph index="38" node_type="writer">En este documento se presentan las respuestas a las preguntas de la unidad didáctica UD01A02 relacionadas con los diferentes enfoques de la inteligencia artificial, aprendizaje automático y casos prácticos de aplicación. Se abordan conceptos de IA simbólica, Machine Learning clásico y Deep Learning, así como reflexiones sobre la importancia de los datos y los riesgos asociados a su sesgo.</paragraph>
+ <paragraph index="40" node_type="writer">Desarrollo</paragraph>
+ <paragraph index="41" node_type="writer">1. Decide si son IA simbólica, ML clásico o Deep Learning:</paragraph>
+ <paragraph index="42" node_type="writer">- Un sistema experto médico de los 80. → IA simbólica.</paragraph>
+ <paragraph index="43" node_type="writer">- Reconocimiento facial en el móvil. → Deep Learning.</paragraph>
+ <paragraph index="44" node_type="writer">- Un chatbot basado en reglas (FAQ preprogramadas). → IA simbólica.</paragraph>
+ <paragraph index="45" node_type="writer">- Netflix recomendando series. → Machine Learning clásico (filtrado colaborativo).</paragraph>
+ <paragraph index="46" node_type="writer">- AlphaGo. → Deep Learning + Aprendizaje por refuerzo.</paragraph>
+ <paragraph index="47" node_type="writer">2. Agrupa por supervisada, no supervisada o por refuerzo:</paragraph>
+ <paragraph index="48" node_type="writer">- Caso 1: Clasificar correos como “spam/no spam”. → Supervisada.</paragraph>
+ <paragraph index="49" node_type="writer">- Caso 2: Agrupar clientes por sus hábitos de compra. → No supervisada.</paragraph>
+ <paragraph index="50" node_type="writer">- Caso 3: Un dron que aprende a volar evitando obstáculos. → Por refuerzo.</paragraph>
+ <paragraph index="51" node_type="writer">- Caso 4: Predecir precio de casas según características. → Supervisada.</paragraph>
+ <paragraph index="52" node_type="writer">3. ¿Qué enfoque crees que es más usado en aplicaciones web hoy en día y por qué?</paragraph>
+ <paragraph index="53" node_type="writer">Hoy en día el más usado es el Machine Learning clásico y el Deep Learning en algunos casos, principalmente porque permiten personalización (recomendaciones), predicciones en tiempo real y clasificación de datos de forma más eficiente que la IA simbólica. El Deep Learning se ha popularizado con procesamiento de imágenes y NLP.</paragraph>
+ <paragraph index="54" node_type="writer">4. Análisis del dataset Titanic</paragraph>
+ <paragraph index="55" node_type="writer">Archivos y problemas detectados: </paragraph>
+ <paragraph index="56" node_type="writer">gender_submission.csv</paragraph>
+ <paragraph index="57" node_type="writer">Contenido: PassengerId y Survived.</paragraph>
+ <paragraph index="58" node_type="writer">Estado: Completo y bien estructurado.</paragraph>
+ <paragraph index="59" node_type="writer">Problemas: Ninguno relevante; sin valores nulos, duplicados ni inconsistencias.</paragraph>
+ <paragraph index="60" node_type="writer">test.csv</paragraph>
+ <paragraph index="61" node_type="writer">Columnas clave: PassengerId, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked.</paragraph>
+ <paragraph index="62" node_type="writer">Problemas detectados:
+• Valores faltantes: Age, Cabin; posibles en Fare o Embarked.
+• Tipos de datos inconsistentes: Age con decimales; Name con comillas y paréntesis.
+• Datos truncados: vista parcial indica más filas no visibles.
+• Outliers: Fare con valores extremos (ej. 512.33).
+• Variables categóricas: Sex, Embarked, Cabin y Ticket requieren encoding.
+• Posibles duplicados en nombres o tickets.</paragraph>
+ <paragraph index="63" node_type="writer">train.csv</paragraph>
+ <paragraph index="64" node_type="writer">Columnas clave: mismas que test.csv + Survived.</paragraph>
+ <paragraph index="65" node_type="writer">Problemas detectados:
+• Valores faltantes: Age, Cabin, algunos en Embarked.
+• Tipos de datos complejos: mismos que test.csv.
+• Outliers: Age muy alto o muy bajo; Fare extremo.
+• Desbalanceo de clases: más 0 que 1 en Survived.
+• Columnas irrelevantes: PassengerId, Name, Ticket, Cabin requieren feature engineering.</paragraph>
+ <paragraph index="66" node_type="writer">Problemas generales del dataset</paragraph>
+ <paragraph index="67" node_type="writer">Incompletitud: muchos nulos en Cabin (~77%), Age (~20%) y algunos en Embarked.</paragraph>
+ <paragraph index="68" node_type="writer">Ruido: nombres con formatos variados; tickets alfanuméricos inconsistentes.</paragraph>
+ <paragraph index="69" node_type="writer">Redundancia: SibSp y Parch podrían combinarse en FamilySize.</paragraph>
+ <paragraph index="70" node_type="writer">Escalabilidad: Fare necesita normalización para modelos de ML.</paragraph>
+ <paragraph index="71" node_type="writer">Riesgos de entrenar con datos incompletos:</paragraph>
+ <paragraph index="72" node_type="writer">Sesgo en el modelo (Bias):
+• Los nulos no son aleatorios. Ejemplo: Cabin falta más en clases bajas (Pclass=3), sesgando predicciones hacia clases altas.
+• El modelo podría aprender relaciones incorrectas y predecir peor para grupos con más nulos.</paragraph>
+ <paragraph index="73" node_type="writer">Pérdida de precisión y generalización:
+• Modelos clásicos no manejan bien nulos.
+• Overfitting: se ajusta demasiado a datos completos.
+• Underfitting: eliminar filas con nulos reduce el tamaño del dataset (~891 → ~700 filas).
+• Métricas como accuracy, precision y recall se reducen.</paragraph>
+ <paragraph index="74" node_type="writer">Errores en predicción:
+• Aparición de NaN en test.csv al no manejar nulos → fallos o resultados inválidos.
+• Riesgo de crashes en producción.</paragraph>
+ <paragraph index="75" node_type="writer">Problemas éticos y prácticos:
+• Refuerzo de desigualdades (ej. sesgo por clase o género en Titanic).
+• Mayor coste al tener que reentrenar varias veces.</paragraph>
+ <paragraph index="76" node_type="writer">Solución recomendada:
+• Evitar entrenar directamente con datos incompletos.
+• Realizar imputación (mediana/moda) o eliminar columnas con muchos nulos (ej. Cabin).
+• Resultado esperado: modelo más robusto y confiable.</paragraph>
+ <paragraph index="77" node_type="writer">Limpieza Básica con Python:</paragraph>
+ <paragraph index="78" node_type="writer">Eliminación de columnas:
+• Cabin → eliminada (77% nulos).</paragraph>
+ <paragraph index="79" node_type="writer">Imputación de nulos:
+• Age → mediana.
+• Embarked → moda (ej. 'S').
+• Fare → mediana en test.csv.</paragraph>
+ <paragraph index="80" node_type="writer">Duplicados:
+• Eliminación de filas duplicadas (poco probable en este dataset).</paragraph>
+ <paragraph index="81" node_type="writer">Codificación:
+• Sex → binario (male=0, female=1).
+• Embarked → one-hot encoding (Embarked_Q, Embarked_S; C como referencia).</paragraph>
+ <paragraph index="82" node_type="writer">Columnas irrelevantes:
+• PassengerId, Name, Ticket eliminadas.</paragraph>
+ <paragraph index="83" node_type="writer">Resultado:
+• Los datasets limpios (train_clean.csv, test_clean.csv) tienen columnas numéricas y categóricas codificadas, sin nulos, listos para entrenar un modelo.</paragraph>
+ <paragraph index="84" node_type="writer">Código el ejemplo:
+https://carbon.now.sh/V7vDnklADRrgksw39E8F</paragraph>
+ <paragraph index="86" node_type="writer">5. ¿Por qué se dice que “los datos son el nuevo petróleo”?</paragraph>
+ <paragraph index="87" node_type="writer">Porque los datos en bruto no tienen valor hasta que se procesan, analizan y refinan, igual que el petróleo. Los datos impulsan modelos de IA, decisiones empresariales y nuevos productos, convirtiéndose en un recurso estratégico.</paragraph>
+ <paragraph index="88" node_type="writer">6. ¿Qué riesgos existen si los datos están sesgados?</paragraph>
+ <paragraph index="89" node_type="writer">El principal riesgo es que el modelo aprenda y refuerce esos sesgos, lo que puede llevar a discriminación. Ejemplos: sistemas de selección de personal que penalizan a mujeres, algoritmos judiciales que perpetúan prejuicios raciales, o recomendaciones que excluyen minorías.</paragraph>
+ <paragraph index="90" node_type="writer">7. Imagina que queremos entrenar un sistema que recomiende restaurantes:</paragraph>
+ <paragraph index="91" node_type="writer">- Datos necesarios: ubicación de usuarios, tipos de cocina preferida, reseñas, horarios, precios, historial de visitas.</paragraph>
+ <paragraph index="92" node_type="writer">- Cómo recopilarlos: encuestas, aplicaciones móviles, datos públicos de Google Maps, Yelp o TripAdvisor.</paragraph>
+ <paragraph index="93" node_type="writer">- Problemas éticos: privacidad de usuarios, manipulación de reseñas falsas, sesgo hacia restaurantes grandes frente a pequeños negocios locales.</paragraph>
+ <paragraph index="94" node_type="writer">8. Realiza los siguientes pasos y responde con Iris dataset (https://scikit-learn.org/1.5/auto_examples/datasets/plot_iris_dataset.html)</paragraph>
+ <paragraph index="95" node_type="writer">Cargar el dataset Iris con scikit-learn.</paragraph>
+ <paragraph index="96" node_type="writer">¿Cuántas muestras y cuántas clases tiene?</paragraph>
+ <paragraph index="97" node_type="writer">El dataset Iris tiene 150 muestras y 3 clases (setosa, versicolor, virginica)</paragraph>
+ <paragraph index="98" node_type="writer">¿Qué representan las features (columnas)?</paragraph>
+ <paragraph index="99" node_type="writer">Las features representan medidas en centímetros de las flores</paragraph>
+ <paragraph index="100" node_type="writer">sepal length (cm): longitud del sépalo. </paragraph>
+ <paragraph index="101" node_type="writer">sepal width (cm): ancho del sépalo. </paragraph>
+ <paragraph index="102" node_type="writer">petal length (cm): longitud del pétalo. </paragraph>
+ <paragraph index="103" node_type="writer">petal width (cm): ancho del pétalo.</paragraph>
+ <paragraph index="104" node_type="writer">Exploración inicial</paragraph>
+ <paragraph index="105" node_type="writer">Mostrar las primeras 5 filas.</paragraph>
+ <paragraph index="107" node_type="writer">Graficar un pairplot (usando seaborn.pairplot) coloreado por especie.</paragraph>
+ <paragraph index="109" node_type="writer">División de datos</paragraph>
+ <paragraph index="110" node_type="writer">Separar en entrenamiento (70%) y prueba (30%) con train_test_split.</paragraph>
+ <paragraph index="111" node_type="writer">Descripción de la división: </paragraph>
+ <paragraph index="112" node_type="writer">Se dividió el dataset Iris (150 muestras, 4 características) en conjuntos de entrenamiento y prueba usando train_test_split con test_size=0.3, random_state=42 y stratify=y. Esto resultó en:</paragraph>
+ <paragraph index="113" node_type="writer">Conjunto de entrenamiento: 105 muestras (70%), con 4 características. </paragraph>
+ <paragraph index="114" node_type="writer">Conjunto de prueba: 45 muestras (30%), con 4 características. La opción stratify=y asegura que la proporción de las clases (setosa, versicolor, virginica) sea la misma en ambos conjuntos, manteniendo el balance del dataset original.</paragraph>
+ <paragraph index="115" node_type="writer">Entrenamiento con KNN</paragraph>
+ <paragraph index="116" node_type="writer">Entrenar un clasificador KNeighborsClassifier con n_neighbors = 5.</paragraph>
+ <paragraph index="119" node_type="writer">Predecir en el conjunto de prueba.</paragraph>
+ <paragraph index="120" node_type="writer">Calcular accuracy, matriz de confusión y classification report.</paragraph>
+ <paragraph index="121" node_type="writer">Entrenamiento con KNN: Se entrenó un clasificador KNeighborsClassifier con n_neighbors=5 usando el conjunto de entrenamiento (105 muestras). Se hicieron predicciones en el conjunto de prueba (45 muestras). Los resultados son:</paragraph>
+ <paragraph index="122" node_type="writer">Accuracy: 0.978 (97.8%), indicando un alto rendimiento en la clasificación. </paragraph>
+ <paragraph index="123" node_type="writer">Matriz de confusión:</paragraph>
+ <paragraph index="124" node_type="writer">[[15  0  0]</paragraph>
+ <paragraph index="125" node_type="writer"> [ 0 15  0]</paragraph>
+ <paragraph index="126" node_type="writer">[ 0  1 14]]</paragraph>
+ <paragraph index="127" node_type="writer">Setosa: 15/15 correctas (100%). </paragraph>
+ <paragraph index="128" node_type="writer">Versicolor: 15/15 correctas (100%). </paragraph>
+ <paragraph index="129" node_type="writer">Virginica: 14/15 correctas (93%), con 1 muestra clasificada erróneamente como versicolor. </paragraph>
+ <paragraph index="130" node_type="writer">Classification Report: </paragraph>
+ <paragraph index="131" node_type="writer">Setosa: precisión=1.00, recall=1.00, f1-score=1.00. </paragraph>
+ <paragraph index="132" node_type="writer">Versicolor: precisión=0.94, recall=1.00, f1-score=0.97. </paragraph>
+ <paragraph index="133" node_type="writer">Virginica: precisión=1.00, recall=0.93, f1-score=0.97. Accuracy global: 0.98. La matriz de confusión visualizada muestra que el modelo es muy preciso, con un solo error en la clase virginica, clasificada como versicolor.</paragraph>
+ <paragraph index="135" node_type="writer">Entrenamiento con SVM</paragraph>
+ <paragraph index="136" node_type="writer">Entrenar un clasificador SVC (con kernel lineal).</paragraph>
+ <paragraph index="139" node_type="writer">Se entrenó un clasificador SVC con kernel='linear' usando el conjunto de entrenamiento (105 muestras). Se hicieron predicciones en el conjunto de prueba (45 muestras). Los resultados son:</paragraph>
+ <paragraph index="140" node_type="writer">Accuracy: 1.0 (100%), indicando un rendimiento perfecto en la clasificación. </paragraph>
+ <paragraph index="141" node_type="writer">Matriz de confusión:</paragraph>
+ <paragraph index="142" node_type="writer">[[15  0  0]</paragraph>
+ <paragraph index="143" node_type="writer">[ 0 15  0]</paragraph>
+ <paragraph index="144" node_type="writer">[ 0  0 15]]</paragraph>
+ <paragraph index="145" node_type="writer">Setosa: 15/15 correctas (100%). </paragraph>
+ <paragraph index="146" node_type="writer">Versicolor: 15/15 correctas (100%). </paragraph>
+ <paragraph index="147" node_type="writer">Virginica: 15/15 correctas (100%). </paragraph>
+ <paragraph index="148" node_type="writer">Classification Report: </paragraph>
+ <paragraph index="149" node_type="writer">Setosa: precisión=1.00, recall=1.00, f1-score=1.00. </paragraph>
+ <paragraph index="150" node_type="writer">Versicolor: precisión=1.00, recall=1.00, f1-score=1.00. </paragraph>
+ <paragraph index="151" node_type="writer">Virginica: precisión=1.00, recall=1.00, f1-score=1.00. </paragraph>
+ <paragraph index="152" node_type="writer">Accuracy global: 1.00. La matriz de confusión visualizada muestra que el modelo no cometió errores, clasificando correctamente todas las muestras de las tres clases.</paragraph>
+ <paragraph index="153" node_type="writer">Comparación de modelos</paragraph>
+ <paragraph index="154" node_type="writer">¿Cuál tiene mejor accuracy? </paragraph>
+ <paragraph index="155" node_type="writer">El modelo SVM (kernel lineal) tiene mejor accuracy, con un valor de 1.0 (100%), comparado con el modelo KNN (n_neighbors=5), que obtuvo un accuracy de 0.978 (97.8%). Esto indica que SVM clasificó correctamente todas las muestras del conjunto de prueba, mientras que KNN cometió un error.</paragraph>
+ <paragraph index="156" node_type="writer">¿Dónde se confunden más (mirando la matriz de confusión)?</paragraph>
+ <paragraph index="157" node_type="writer">KNN: La matriz de confusión muestra un error: 1 muestra de la clase virginica fue clasificada incorrectamente como versicolor (valor 1 en la posición [virginica, versicolor]). No hubo errores en setosa ni versicolor.</paragraph>
+ <paragraph index="158" node_type="writer">	[[15  0  0]</paragraph>
+ <paragraph index="159" node_type="writer">	 [ 0 15  0]</paragraph>
+ <paragraph index="160" node_type="writer"> 	[ 0  1 14]]</paragraph>
+ <paragraph index="161" node_type="writer">	SVM: La matriz de confusión no muestra errores; todas las muestras fueron 	clasificadas correctamente (diagonal con 15, 15, 15 y ceros fuera de la diagonal).</paragraph>
+ <paragraph index="162" node_type="writer">	[[15  0  0]</paragraph>
+ <paragraph index="163" node_type="writer">	[ 0 15  0]</paragraph>
+ <paragraph index="164" node_type="writer">	[ 0  0 15]]</paragraph>
+ <paragraph index="165" node_type="writer">Conclusión: KNN se confunde más, específicamente entre virginica y versicolor, mientras que SVM no presenta confusiones. Esto es consistente con el pairplot, donde virginica y versicolor tienen cierta superposición en algunas características (como sepal length y sepal width), pero SVM logra una separación perfecta con un hiperplano lineal.</paragraph>
+ <paragraph index="166" node_type="writer">Conclusiones</paragraph>
+ <paragraph index="167" node_type="writer">La inteligencia artificial abarca distintos enfoques que han evolucionado a lo largo de la historia. La IA simbólica sentó las bases en los años 80, pero hoy en día los enfoques más utilizados en el ámbito tecnológico y en aplicaciones web son el Machine Learning y el Deep Learning. Estos permiten procesar grandes cantidades de datos y generar predicciones más precisas. Sin embargo, los riesgos asociados a los datos sesgados ponen de manifiesto la importancia de la ética en el desarrollo y aplicación de sistemas de IA.</paragraph>
+ <paragraph index="169" node_type="writer">Bibliografía</paragraph>
+ <paragraph index="170" node_type="writer">• Russell, S., &amp; Norvig, P. (2010). Artificial Intelligence: A Modern Approach. Prentice Hall.</paragraph>
+ <paragraph index="171" node_type="writer">• Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). Deep Learning. MIT Press.</paragraph>
+ <paragraph index="172" node_type="writer">• Documentación oficial de scikit-learn: https://scikit-learn.org/</paragraph>
+ <paragraph index="173" node_type="writer">• Kaggle - Titanic Dataset: https://www.kaggle.com/competitions/titanic</paragraph>
+</indexing>

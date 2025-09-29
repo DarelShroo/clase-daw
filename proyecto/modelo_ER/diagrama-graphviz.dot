@@ -1,0 +1,238 @@
+digraph ER {
+    rankdir=LR;
+    fontname="Helvetica";
+    node [shape=plaintext fontname="Helvetica"];
+    // === USUARIOS ===
+    USUARIOS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#cce5ff">
+        <TR><TD COLSPAN="2"><B>USUARIOS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_usuario PK</TD></TR>
+        <TR><TD>string</TD><TD>usuario</TD></TR>
+        <TR><TD>string</TD><TD>password</TD></TR>
+        <TR><TD>enum(profesor,alumno,admin)</TD><TD>rol</TD></TR>
+        <TR><TD>string</TD><TD>nombre</TD></TR>
+        <TR><TD>string</TD><TD>departamento (nullable)</TD></TR>
+        <TR><TD>string</TD><TD>email (nullable)</TD></TR>
+        </TABLE>
+    >];
+    // === PROVEEDORES / ALBARANES / IMPUESTOS ===
+    PROVEEDORES [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#f3d0ff">
+        <TR><TD COLSPAN="2"><B>PROVEEDORES</B></TD></TR>
+        <TR><TD>int</TD><TD>id_proveedor PK</TD></TR>
+        <TR><TD>string</TD><TD>nombre</TD></TR>
+        <TR><TD>string</TD><TD>direccion</TD></TR>
+        <TR><TD>string</TD><TD>telefono</TD></TR>
+        <TR><TD>string</TD><TD>email</TD></TR>
+        <TR><TD>decimal</TD><TD>calificacion (nullable)</TD></TR>
+        <TR><TD>decimal</TD><TD>tiempo_entrega_promedio (nullable)</TD></TR>
+        </TABLE>
+    >];
+    ALBARANES [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#f3d0ff">
+        <TR><TD COLSPAN="2"><B>ALBARANES</B></TD></TR>
+        <TR><TD>int</TD><TD>id_albaran PK</TD></TR>
+        <TR><TD>int</TD><TD>id_proveedor FK</TD></TR>
+        <TR><TD>int</TD><TD>n_albaran</TD></TR>
+        <TR><TD>date</TD><TD>fecha</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_total</TD></TR>
+        <TR><TD>boolean</TD><TD>concordancia</TD></TR>
+        <TR><TD>string</TD><TD>observaciones</TD></TR>
+        </TABLE>
+    >];
+    DETALLES_ALBARANES [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#f3d0ff">
+        <TR><TD COLSPAN="2"><B>DETALLES_ALBARANES</B></TD></TR>
+        <TR><TD>int</TD><TD>id_detalle PK</TD></TR>
+        <TR><TD>int</TD><TD>id_albaran FK</TD></TR>
+        <TR><TD>int</TD><TD>id_producto FK</TD></TR>
+        <TR><TD>int</TD><TD>id_impuesto FK</TD></TR>
+        <TR><TD>decimal</TD><TD>cantidad</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_unitario</TD></TR>
+        <TR><TD>string</TD><TD>descripcion</TD></TR>
+        </TABLE>
+    >];
+    IMPUESTOS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#f3d0ff">
+        <TR><TD COLSPAN="2"><B>IMPUESTOS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_impuesto PK</TD></TR>
+        <TR><TD>string</TD><TD>nombre</TD></TR>
+        <TR><TD>decimal</TD><TD>porcentaje</TD></TR>
+        </TABLE>
+    >];
+    UNIDADES [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffd9b3">
+        <TR><TD COLSPAN="2"><B>UNIDADES</B></TD></TR>
+        <TR><TD>int</TD><TD>id_unidad PK</TD></TR>
+        <TR><TD>string</TD><TD>nombre</TD></TR>
+        </TABLE>
+    >];
+    // === PEDIDOS / BAJAS ===
+    PEDIDOS_INTERNO [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffcccc">
+        <TR><TD COLSPAN="2"><B>PEDIDOS_INTERNO</B></TD></TR>
+        <TR><TD>int</TD><TD>id_pedido PK</TD></TR>
+        <TR><TD>int</TD><TD>id_usuario FK (profesor)</TD></TR>
+        <TR><TD>date</TD><TD>fecha_pedido</TD></TR>
+        <TR><TD>date</TD><TD>fecha_entrega</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_total</TD></TR>
+        <TR><TD>string</TD><TD>observaciones</TD></TR>
+        <TR><TD>enum(pendiente,aprobado,entregado,cancelado)</TD><TD>estado</TD></TR>
+        <TR><TD>string</TD><TD>clase_curso (nullable)</TD></TR>
+        </TABLE>
+    >];
+    DETALLES_PEDIDOS_INTERNO [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffcccc">
+        <TR><TD COLSPAN="2"><B>DETALLES_PEDIDOS_INTERNO</B></TD></TR>
+        <TR><TD>int</TD><TD>id_detalle PK</TD></TR>
+        <TR><TD>int</TD><TD>id_pedido FK</TD></TR>
+        <TR><TD>int</TD><TD>id_producto FK</TD></TR>
+        <TR><TD>decimal</TD><TD>cantidad</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_unitario</TD></TR>
+        <TR><TD>string</TD><TD>descripcion</TD></TR>
+        </TABLE>
+    >];
+    USOS_SOBRANTES [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffcccc">
+        <TR><TD COLSPAN="2"><B>USOS_SOBRANTES</B></TD></TR>
+        <TR><TD>int</TD><TD>id_uso PK</TD></TR>
+        <TR><TD>int</TD><TD>id_pedido FK</TD></TR>
+        <TR><TD>int</TD><TD>id_producto FK</TD></TR>
+        <TR><TD>decimal</TD><TD>cantidad_usada</TD></TR>
+        <TR><TD>decimal</TD><TD>cantidad_sobrante</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_asociado</TD></TR>
+        <TR><TD>string</TD><TD>observaciones</TD></TR>
+        </TABLE>
+    >];
+    BAJAS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffcc">
+        <TR><TD COLSPAN="2"><B>BAJAS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_baja PK</TD></TR>
+        <TR><TD>int</TD><TD>id_producto FK</TD></TR>
+        <TR><TD>date</TD><TD>fecha_baja</TD></TR>
+        <TR><TD>string</TD><TD>descripcion</TD></TR>
+        <TR><TD>decimal</TD><TD>cantidad</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_unitario</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_total</TD></TR>
+        <TR><TD>string</TD><TD>observaciones</TD></TR>
+        <TR><TD>enum(caducado,danado,otro)</TD><TD>motivo</TD></TR>
+        </TABLE>
+    >];
+    // === INVENTARIO / PRODUCTOS ===
+    INVENTARIO [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#e0ccff">
+        <TR><TD COLSPAN="2"><B>INVENTARIO</B></TD></TR>
+        <TR><TD>int</TD><TD>id_inventario PK</TD></TR>
+        <TR><TD>int</TD><TD>id_producto FK</TD></TR>
+        <TR><TD>decimal</TD><TD>cantidad</TD></TR>
+        <TR><TD>date</TD><TD>fecha_entrada</TD></TR>
+        <TR><TD>date</TD><TD>fecha_caducidad</TD></TR>
+        <TR><TD>int</TD><TD>id_albaran FK</TD></TR>
+        <TR><TD>decimal</TD><TD>stock_min</TD></TR>
+        <TR><TD>decimal</TD><TD>stock_max</TD></TR>
+        <TR><TD>string</TD><TD>num_lote</TD></TR>
+        <TR><TD>string</TD><TD>ubicacion</TD></TR>
+        <TR><TD>enum(fresco,congelado,procesado)</TD><TD>estado</TD></TR>
+        </TABLE>
+    >];
+    PRODUCTOS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#e0f7fa">
+        <TR><TD COLSPAN="2"><B>PRODUCTOS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_producto PK</TD></TR>
+        <TR><TD>string</TD><TD>nombre</TD></TR>
+        <TR><TD>string</TD><TD>imagen</TD></TR>
+        <TR><TD>string</TD><TD>codigo_barras</TD></TR>
+        <TR><TD>int</TD><TD>id_unidad FK</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_base</TD></TR>
+        <TR><TD>string</TD><TD>categoria</TD></TR>
+        <TR><TD>string</TD><TD>alergenos</TD></TR>
+        <TR><TD>decimal</TD><TD>calorias_por_100g</TD></TR>
+        <TR><TD>decimal</TD><TD>proteinas_por_100g</TD></TR>
+        <TR><TD>decimal</TD><TD>grasas_por_100g</TD></TR>
+        <TR><TD>int</TD><TD>vida_util_dias</TD></TR>
+        </TABLE>
+    >];
+    RENDIMIENTOS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#e0f7fa">
+        <TR><TD COLSPAN="2"><B>RENDIMIENTOS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_rendimiento PK</TD></TR>
+        <TR><TD>int</TD><TD>id_producto FK</TD></TR>
+        <TR><TD>decimal</TD><TD>peso_bruto</TD></TR>
+        <TR><TD>decimal</TD><TD>peso_neto</TD></TR>
+        <TR><TD>decimal</TD><TD>merma</TD></TR>
+        <TR><TD>decimal</TD><TD>porcentaje_rendimiento</TD></TR>
+        <TR><TD>decimal</TD><TD>porcentaje_merma</TD></TR>
+        <TR><TD>date</TD><TD>fecha</TD></TR>
+        </TABLE>
+    >];
+    RECETAS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#e0f7fa">
+        <TR><TD COLSPAN="2"><B>RECETAS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_receta PK</TD></TR>
+        <TR><TD>string</TD><TD>nombre</TD></TR>
+        <TR><TD>string</TD><TD>descripcion</TD></TR>
+        <TR><TD>int</TD><TD>porciones</TD></TR>
+        <TR><TD>int</TD><TD>tiempo_preparacion_min</TD></TR>
+        <TR><TD>int</TD><TD>tiempo_coccion_min</TD></TR>
+        <TR><TD>decimal</TD><TD>coste_por_porcion (derivada)</TD></TR>
+        <TR><TD>enum(facil,medio,dificil)</TD><TD>nivel_dificultad</TD></TR>
+        <TR><TD>string</TD><TD>objetivos_aprendizaje</TD></TR>
+        </TABLE>
+    >];
+    DETALLES_RECETAS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#e0f7fa">
+        <TR><TD COLSPAN="2"><B>DETALLES_RECETAS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_detalle PK</TD></TR>
+        <TR><TD>int</TD><TD>id_receta FK</TD></TR>
+        <TR><TD>int</TD><TD>id_producto FK</TD></TR>
+        <TR><TD>decimal</TD><TD>cantidad</TD></TR>
+        <TR><TD>int</TD><TD>id_unidad FK</TD></TR>
+        </TABLE>
+    >];
+    LOG_TEMPERATURAS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#e0f7fa">
+        <TR><TD COLSPAN="2"><B>LOG_TEMPERATURAS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_log PK</TD></TR>
+        <TR><TD>int</TD><TD>id_inventario FK</TD></TR>
+        <TR><TD>date</TD><TD>fecha</TD></TR>
+        <TR><TD>decimal</TD><TD>temperatura</TD></TR>
+        <TR><TD>decimal</TD><TD>umbral_min</TD></TR>
+        <TR><TD>decimal</TD><TD>umbral_max</TD></TR>
+        <TR><TD>int</TD><TD>id_usuario FK (responsable)</TD></TR>
+        </TABLE>
+    >];
+    // === Nueva Entidad para Historial de Movimientos ===
+    MOVIMIENTOS [label=<
+        <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#e0ccff">
+        <TR><TD COLSPAN="2"><B>MOVIMIENTOS</B></TD></TR>
+        <TR><TD>int</TD><TD>id_movimiento PK</TD></TR>
+        <TR><TD>enum(entrada,salida,ajuste)</TD><TD>tipo</TD></TR>
+        <TR><TD>int</TD><TD>id_producto FK</TD></TR>
+        <TR><TD>decimal</TD><TD>cantidad</TD></TR>
+        <TR><TD>date</TD><TD>fecha</TD></TR>
+        <TR><TD>int</TD><TD>id_usuario FK</TD></TR>
+        <TR><TD>string</TD><TD>observaciones</TD></TR>
+        </TABLE>
+    >];
+    // === RELACIONES ===
+    PROVEEDORES -> ALBARANES [label="pertenece a"];
+    ALBARANES -> DETALLES_ALBARANES [label="contiene"];
+    DETALLES_ALBARANES -> PRODUCTOS [label="detalla"];
+    DETALLES_ALBARANES -> IMPUESTOS [label="aplica"];
+    USUARIOS -> PEDIDOS_INTERNO [label="genera (profesores)"];
+    PEDIDOS_INTERNO -> DETALLES_PEDIDOS_INTERNO [label="contiene"];
+    DETALLES_PEDIDOS_INTERNO -> PRODUCTOS [label="detalla"];
+    PEDIDOS_INTERNO -> USOS_SOBRANTES [label="registra"];
+    USOS_SOBRANTES -> PRODUCTOS [label="detalla"];
+    PRODUCTOS -> BAJAS [label="registra"];
+    PRODUCTOS -> INVENTARIO [label="tiene"];
+    INVENTARIO -> LOG_TEMPERATURAS [label="registra"];
+    LOG_TEMPERATURAS -> USUARIOS [label="responsable"];
+    PRODUCTOS -> RENDIMIENTOS [label="mide"];
+    RECETAS -> DETALLES_RECETAS [label="contiene"];
+    DETALLES_RECETAS -> PRODUCTOS [label="usa"];
+    DETALLES_RECETAS -> UNIDADES [label="mide"];
+    PRODUCTOS -> UNIDADES [label="mide"];
+    PRODUCTOS -> MOVIMIENTOS [label="registra"];
+    USUARIOS -> MOVIMIENTOS [label="realiza"];
+}
