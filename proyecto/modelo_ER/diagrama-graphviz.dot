@@ -215,24 +215,24 @@ digraph ER {
         </TABLE>
     >];
     // === RELACIONES ===
-    PROVEEDORES -> ALBARANES [label="pertenece a"];
-    ALBARANES -> DETALLES_ALBARANES [label="contiene"];
-    DETALLES_ALBARANES -> PRODUCTOS [label="detalla"];
-    DETALLES_ALBARANES -> IMPUESTOS [label="aplica"];
-    USUARIOS -> PEDIDOS_INTERNO [label="genera (profesores)"];
-    PEDIDOS_INTERNO -> DETALLES_PEDIDOS_INTERNO [label="contiene"];
-    DETALLES_PEDIDOS_INTERNO -> PRODUCTOS [label="detalla"];
-    PEDIDOS_INTERNO -> USOS_SOBRANTES [label="registra"];
-    USOS_SOBRANTES -> PRODUCTOS [label="detalla"];
-    PRODUCTOS -> BAJAS [label="registra"];
-    PRODUCTOS -> INVENTARIO [label="tiene"];
-    INVENTARIO -> LOG_TEMPERATURAS [label="registra"];
-    LOG_TEMPERATURAS -> USUARIOS [label="responsable"];
-    PRODUCTOS -> RENDIMIENTOS [label="mide"];
-    RECETAS -> DETALLES_RECETAS [label="contiene"];
-    DETALLES_RECETAS -> PRODUCTOS [label="usa"];
-    DETALLES_RECETAS -> UNIDADES [label="mide"];
-    PRODUCTOS -> UNIDADES [label="mide"];
-    PRODUCTOS -> MOVIMIENTOS [label="registra"];
-    USUARIOS -> MOVIMIENTOS [label="realiza"];
+    PROVEEDORES -> ALBARANES [label="pertenece a (1:N)"];
+    ALBARANES -> DETALLES_ALBARANES [label="contiene (1:N)"];
+    DETALLES_ALBARANES -> PRODUCTOS [label="detalla (N:1)"];
+    DETALLES_ALBARANES -> IMPUESTOS [label="aplica (N:1)"];
+    USUARIOS -> PEDIDOS_INTERNO [label="genera (1:N, profesores)"];
+    PEDIDOS_INTERNO -> DETALLES_PEDIDOS_INTERNO [label="contiene (1:N)"];
+    DETALLES_PEDIDOS_INTERNO -> PRODUCTOS [label="detalla (N:1)"];
+    PEDIDOS_INTERNO -> USOS_SOBRANTES [label="registra (1:N)"];
+    USOS_SOBRANTES -> PRODUCTOS [label="detalla (N:1)"];
+    PRODUCTOS -> BAJAS [label="registra (1:N)"];
+    PRODUCTOS -> INVENTARIO [label="tiene (1:N)"];
+    INVENTARIO -> LOG_TEMPERATURAS [label="registra (1:N)"];
+    LOG_TEMPERATURAS -> USUARIOS [label="responsable (N:1)"];
+    PRODUCTOS -> RENDIMIENTOS [label="mide (1:N)"];
+    RECETAS -> DETALLES_RECETAS [label="contiene (1:N)"];
+    DETALLES_RECETAS -> PRODUCTOS [label="usa (N:1)"];
+    DETALLES_RECETAS -> UNIDADES [label="mide (N:1)"];
+    PRODUCTOS -> UNIDADES [label="mide (1:1)"];
+    PRODUCTOS -> MOVIMIENTOS [label="registra (1:N)"];
+    USUARIOS -> MOVIMIENTOS [label="realiza (1:N)"];
 }
