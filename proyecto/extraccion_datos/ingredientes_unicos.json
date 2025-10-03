@@ -1,0 +1,5702 @@
+[
+  {
+    "nombre": "abadejo filete congelado",
+    "unidad": "kg",
+    "precio": "4,90"
+  },
+  {
+    "nombre": "abadejo filete congelado piel",
+    "unidad": "kg",
+    "precio": "3,15"
+  },
+  {
+    "nombre": "abadejo filete congelado prem",
+    "unidad": "kg",
+    "precio": "5,20"
+  },
+  {
+    "nombre": "abadejo fresco",
+    "unidad": "kg",
+    "precio": "10,50"
+  },
+  {
+    "nombre": "aceite de trufa",
+    "unidad": "kg",
+    "precio": "3,60"
+  },
+  {
+    "nombre": "aceite freidoras",
+    "unidad": "kg",
+    "precio": "1,01"
+  },
+  {
+    "nombre": "aceite girasol",
+    "unidad": "kg",
+    "precio": "1,04"
+  },
+  {
+    "nombre": "aceite oliva virgen extra",
+    "unidad": "kg",
+    "precio": "3,81"
+  },
+  {
+    "nombre": "aceite oliva virgen extra",
+    "unidad": "unidad",
+    "precio": "0,22"
+  },
+  {
+    "nombre": "aceite ove 0,4 º",
+    "unidad": "kg",
+    "precio": "3,23"
+  },
+  {
+    "nombre": "aceituna negra con hueso",
+    "unidad": "kg",
+    "precio": "2,00"
+  },
+  {
+    "nombre": "aceituna negra sin hueso",
+    "unidad": "kg",
+    "precio": "3,06"
+  },
+  {
+    "nombre": "aceituna rellena",
+    "unidad": "kg",
+    "precio": "2,34"
+  },
+  {
+    "nombre": "aceituna verde con hueso",
+    "unidad": "kg",
+    "precio": "1,85"
+  },
+  {
+    "nombre": "aceituna verde sin hueso",
+    "unidad": "kg",
+    "precio": "3,42"
+  },
+  {
+    "nombre": "acelgas",
+    "unidad": "unidad",
+    "precio": "0,30"
+  },
+  {
+    "nombre": "actimel",
+    "unidad": "unidad",
+    "precio": "0,26"
+  },
+  {
+    "nombre": "agar agar",
+    "unidad": "kg",
+    "precio": "63,07"
+  },
+  {
+    "nombre": "agua 1/2 gas fuente alta",
+    "unidad": "unidad",
+    "precio": "0,09"
+  },
+  {
+    "nombre": "agua 1/2 sin gas fuente alta",
+    "unidad": "unidad",
+    "precio": "0,09"
+  },
+  {
+    "nombre": "agua apollinaris 100cl",
+    "unidad": "unidad",
+    "precio": "0,99"
+  },
+  {
+    "nombre": "agua cristal 75cl",
+    "unidad": "unidad",
+    "precio": "0,17"
+  },
+  {
+    "nombre": "agua de azahar",
+    "unidad": "l",
+    "precio": "5,04"
+  },
+  {
+    "nombre": "agua de rosas",
+    "unidad": "l",
+    "precio": "28,80"
+  },
+  {
+    "nombre": "agua firgas 75cl. gas",
+    "unidad": "unidad",
+    "precio": "0,20"
+  },
+  {
+    "nombre": "agua lt. garrafa",
+    "unidad": "l",
+    "precio": "0,13"
+  },
+  {
+    "nombre": "agua pet 1.5 lt",
+    "unidad": "unidad",
+    "precio": "0,30"
+  },
+  {
+    "nombre": "agua pet 50cl",
+    "unidad": "unidad",
+    "precio": "0,17"
+  },
+  {
+    "nombre": "aguacate",
+    "unidad": "kg",
+    "precio": "4,35"
+  },
+  {
+    "nombre": "aguja de res",
+    "unidad": "kg",
+    "precio": "6,53"
+  },
+  {
+    "nombre": "ajo deshidratado",
+    "unidad": "kg",
+    "precio": "4,66"
+  },
+  {
+    "nombre": "ajonjolí",
+    "unidad": "kg",
+    "precio": "14,14"
+  },
+  {
+    "nombre": "ajos granel",
+    "unidad": "kg",
+    "precio": "2,70"
+  },
+  {
+    "nombre": "ajos tiernos",
+    "unidad": "unidad",
+    "precio": "2,00"
+  },
+  {
+    "nombre": "ají",
+    "unidad": "kg",
+    "precio": "10,71"
+  },
+  {
+    "nombre": "alaska neutro",
+    "unidad": "kg",
+    "precio": "9,65"
+  },
+  {
+    "nombre": "albahaca",
+    "unidad": "manojo",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "albaricoque",
+    "unidad": "kg",
+    "precio": "2,30"
+  },
+  {
+    "nombre": "albumina(huevo en polvo)",
+    "unidad": "kg",
+    "precio": "13,00"
+  },
+  {
+    "nombre": "alcachofa",
+    "unidad": "kg",
+    "precio": "2,80"
+  },
+  {
+    "nombre": "alcachofa congelado.",
+    "unidad": "kg",
+    "precio": "2,81"
+  },
+  {
+    "nombre": "alcachofa conserva",
+    "unidad": "kg",
+    "precio": "2,35"
+  },
+  {
+    "nombre": "alcaparra",
+    "unidad": "kg",
+    "precio": "8,84"
+  },
+  {
+    "nombre": "alfonsinos fresco",
+    "unidad": "kg",
+    "precio": "9,50"
+  },
+  {
+    "nombre": "alginato sodico",
+    "unidad": "lata",
+    "precio": "23,10"
+  },
+  {
+    "nombre": "almeja japonica fresca",
+    "unidad": "kg",
+    "precio": "11,00"
+  },
+  {
+    "nombre": "almejas congelado",
+    "unidad": "kg",
+    "precio": "2,50"
+  },
+  {
+    "nombre": "almejas finas fresca",
+    "unidad": "kg",
+    "precio": "11,00"
+  },
+  {
+    "nombre": "almendra cruda con\\ piel",
+    "unidad": "kg",
+    "precio": "8,49"
+  },
+  {
+    "nombre": "almendra crudasin\\ piel",
+    "unidad": "kg",
+    "precio": "9,41"
+  },
+  {
+    "nombre": "almendra fileteada",
+    "unidad": "kg",
+    "precio": "15,48"
+  },
+  {
+    "nombre": "almendra frita salada",
+    "unidad": "kg",
+    "precio": "9,52"
+  },
+  {
+    "nombre": "almendra grano",
+    "unidad": "kg",
+    "precio": "14,52"
+  },
+  {
+    "nombre": "almendra harina",
+    "unidad": "kg",
+    "precio": "14,12"
+  },
+  {
+    "nombre": "almendra palito",
+    "unidad": "kg",
+    "precio": "10,42"
+  },
+  {
+    "nombre": "almendra tostada con piel",
+    "unidad": "kg",
+    "precio": "7,11"
+  },
+  {
+    "nombre": "almogrote",
+    "unidad": "kg",
+    "precio": "14,26"
+  },
+  {
+    "nombre": "altramuces/chochos",
+    "unidad": "kg",
+    "precio": "3,15"
+  },
+  {
+    "nombre": "alubia blanca",
+    "unidad": "kg",
+    "precio": "1,90"
+  },
+  {
+    "nombre": "alubia congelado.",
+    "unidad": "kg",
+    "precio": "2,22"
+  },
+  {
+    "nombre": "alubia de tolosa",
+    "unidad": "kg",
+    "precio": "15,98"
+  },
+  {
+    "nombre": "alubia grande",
+    "unidad": "kg",
+    "precio": "2,58"
+  },
+  {
+    "nombre": "alubia negra",
+    "unidad": "kg",
+    "precio": "1,54"
+  },
+  {
+    "nombre": "alubia pinta",
+    "unidad": "kg",
+    "precio": "1,95"
+  },
+  {
+    "nombre": "alubia roja",
+    "unidad": "kg",
+    "precio": "1,78"
+  },
+  {
+    "nombre": "amapola azul",
+    "unidad": "kg",
+    "precio": "2,26"
+  },
+  {
+    "nombre": "ambrosías",
+    "unidad": "unidad",
+    "precio": "0,16"
+  },
+  {
+    "nombre": "anacardo",
+    "unidad": "kg",
+    "precio": "9,38"
+  },
+  {
+    "nombre": "anchoas conserva",
+    "unidad": "kg",
+    "precio": "44,28"
+  },
+  {
+    "nombre": "angulas",
+    "unidad": "kg",
+    "precio": "20,00"
+  },
+  {
+    "nombre": "anticristalizante",
+    "unidad": "kg",
+    "precio": "34,48"
+  },
+  {
+    "nombre": "anís en grano",
+    "unidad": "kg",
+    "precio": "7,12"
+  },
+  {
+    "nombre": "anís estrellado",
+    "unidad": "kg",
+    "precio": "22,50"
+  },
+  {
+    "nombre": "apio blanco",
+    "unidad": "kg",
+    "precio": "1,15"
+  },
+  {
+    "nombre": "apio verde",
+    "unidad": "kg",
+    "precio": "1,50"
+  },
+  {
+    "nombre": "arroz arboreo",
+    "unidad": "kg",
+    "precio": "3,13"
+  },
+  {
+    "nombre": "arroz basmati",
+    "unidad": "kg",
+    "precio": "2,65"
+  },
+  {
+    "nombre": "arroz bomba",
+    "unidad": "kg",
+    "precio": "2,80"
+  },
+  {
+    "nombre": "arroz grano corto",
+    "unidad": "kg",
+    "precio": "0,68"
+  },
+  {
+    "nombre": "arroz grano largo",
+    "unidad": "kg",
+    "precio": "1,03"
+  },
+  {
+    "nombre": "arroz inflado",
+    "unidad": "kg",
+    "precio": "1,89"
+  },
+  {
+    "nombre": "arroz integral",
+    "unidad": "kg",
+    "precio": "1,55"
+  },
+  {
+    "nombre": "arroz jazmin",
+    "unidad": "kg",
+    "precio": "1,50"
+  },
+  {
+    "nombre": "arroz salvaje",
+    "unidad": "kg",
+    "precio": "5,64"
+  },
+  {
+    "nombre": "arroz suchi",
+    "unidad": "kg",
+    "precio": "2,82"
+  },
+  {
+    "nombre": "arroz vaporizado",
+    "unidad": "kg",
+    "precio": "0,75"
+  },
+  {
+    "nombre": "artículos celiacos",
+    "unidad": "kg",
+    "precio": "1,66"
+  },
+  {
+    "nombre": "arándanos",
+    "unidad": "paquete",
+    "precio": "5,95"
+  },
+  {
+    "nombre": "arándanos congelado.",
+    "unidad": "kg",
+    "precio": "2,73"
+  },
+  {
+    "nombre": "atún aceite",
+    "unidad": "kg",
+    "precio": "4,65"
+  },
+  {
+    "nombre": "atún congelado",
+    "unidad": "kg",
+    "precio": "4,85"
+  },
+  {
+    "nombre": "atún escabeche",
+    "unidad": "kg",
+    "precio": "4,88"
+  },
+  {
+    "nombre": "atún fresco",
+    "unidad": "kg",
+    "precio": "9,25"
+  },
+  {
+    "nombre": "atún lomo congelado",
+    "unidad": "kg",
+    "precio": "4,30"
+  },
+  {
+    "nombre": "atún lomo fresco",
+    "unidad": "kg",
+    "precio": "6,50"
+  },
+  {
+    "nombre": "atún lomo rojo fresco",
+    "unidad": "kg",
+    "precio": "21,15"
+  },
+  {
+    "nombre": "atún migas aceite",
+    "unidad": "kg",
+    "precio": "4,65"
+  },
+  {
+    "nombre": "avellana tostada",
+    "unidad": "kg",
+    "precio": "7,33"
+  },
+  {
+    "nombre": "avena en copos",
+    "unidad": "kg",
+    "precio": "1,19"
+  },
+  {
+    "nombre": "azafrán",
+    "unidad": "sobre",
+    "precio": "0,26"
+  },
+  {
+    "nombre": "azúcar blanca terron",
+    "unidad": "kg",
+    "precio": "1,98"
+  },
+  {
+    "nombre": "azúcar comun",
+    "unidad": "kg",
+    "precio": "0,47"
+  },
+  {
+    "nombre": "azúcar de palma",
+    "unidad": "kg",
+    "precio": "4,73"
+  },
+  {
+    "nombre": "azúcar estuchada",
+    "unidad": "kg",
+    "precio": "1,05"
+  },
+  {
+    "nombre": "azúcar fondant",
+    "unidad": "kg",
+    "precio": "26,00"
+  },
+  {
+    "nombre": "azúcar glasé",
+    "unidad": "kg",
+    "precio": "1,03"
+  },
+  {
+    "nombre": "azúcar insoluble",
+    "unidad": "kg",
+    "precio": "2,28"
+  },
+  {
+    "nombre": "azúcar invertida",
+    "unidad": "kg",
+    "precio": "4,47"
+  },
+  {
+    "nombre": "azúcar morena",
+    "unidad": "kg",
+    "precio": "3,57"
+  },
+  {
+    "nombre": "azúcar morena estuchada",
+    "unidad": "kg",
+    "precio": "2,94"
+  },
+  {
+    "nombre": "babilla ternera",
+    "unidad": "kg",
+    "precio": "7,19"
+  },
+  {
+    "nombre": "bacalao fresco",
+    "unidad": "kg",
+    "precio": "7,54"
+  },
+  {
+    "nombre": "bacalao lomo",
+    "unidad": "kg",
+    "precio": "4,25"
+  },
+  {
+    "nombre": "bacalao lomo desalado",
+    "unidad": "kg",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "bacalao lomo extra",
+    "unidad": "kg",
+    "precio": "7,85"
+  },
+  {
+    "nombre": "bacalao piel congelado",
+    "unidad": "kg",
+    "precio": "9,75"
+  },
+  {
+    "nombre": "bacalao salado",
+    "unidad": "kg",
+    "precio": "10,50"
+  },
+  {
+    "nombre": "bacon ahumado",
+    "unidad": "kg",
+    "precio": "3,05"
+  },
+  {
+    "nombre": "banderillas",
+    "unidad": "kg",
+    "precio": "3,30"
+  },
+  {
+    "nombre": "barquillo",
+    "unidad": "paquete",
+    "precio": "1,73"
+  },
+  {
+    "nombre": "barritas chocolate",
+    "unidad": "kg",
+    "precio": "18,00"
+  },
+  {
+    "nombre": "base hojaldre",
+    "unidad": "unidad",
+    "precio": "4,79"
+  },
+  {
+    "nombre": "base para helado",
+    "unidad": "kg",
+    "precio": "10,30"
+  },
+  {
+    "nombre": "base para pizza congelada",
+    "unidad": "kg",
+    "precio": "17,50"
+  },
+  {
+    "nombre": "batata",
+    "unidad": "kg",
+    "precio": "1,59"
+  },
+  {
+    "nombre": "batavia",
+    "unidad": "kg",
+    "precio": "1,20"
+  },
+  {
+    "nombre": "batavia roja",
+    "unidad": "kg",
+    "precio": "0,90"
+  },
+  {
+    "nombre": "batido cacao",
+    "unidad": "unidad",
+    "precio": "0,85"
+  },
+  {
+    "nombre": "berberecho conserva",
+    "unidad": "kg",
+    "precio": "17,73"
+  },
+  {
+    "nombre": "berenjenas",
+    "unidad": "kg",
+    "precio": "1,60"
+  },
+  {
+    "nombre": "berros",
+    "unidad": "unidad",
+    "precio": "0,75"
+  },
+  {
+    "nombre": "bienex caramelo en polvo",
+    "unidad": "kg",
+    "precio": "5,98"
+  },
+  {
+    "nombre": "bienmesabe",
+    "unidad": "kg",
+    "precio": "8,92"
+  },
+  {
+    "nombre": "bife congelado. entrecot/person",
+    "unidad": "kg",
+    "precio": "6,95"
+  },
+  {
+    "nombre": "bife congeladoentrecot/restau",
+    "unidad": "kg",
+    "precio": "6,20"
+  },
+  {
+    "nombre": "bife fresco entrecot",
+    "unidad": "kg",
+    "precio": "10,50"
+  },
+  {
+    "nombre": "bife refrig. entrecot",
+    "unidad": "kg",
+    "precio": "8,95"
+  },
+  {
+    "nombre": "bife ternera lechal",
+    "unidad": "kg",
+    "precio": "18,49"
+  },
+  {
+    "nombre": "bistec pepitos",
+    "unidad": "kg",
+    "precio": "5,80"
+  },
+  {
+    "nombre": "bogavante congelado.",
+    "unidad": "kg",
+    "precio": "14,50"
+  },
+  {
+    "nombre": "bogavante fresco",
+    "unidad": "kg",
+    "precio": "19,20"
+  },
+  {
+    "nombre": "bola-tapa ternera",
+    "unidad": "kg",
+    "precio": "5,25"
+  },
+  {
+    "nombre": "boletus edulis",
+    "unidad": "kg",
+    "precio": "11,26"
+  },
+  {
+    "nombre": "boletus edulis",
+    "unidad": "kg",
+    "precio": "12,19"
+  },
+  {
+    "nombre": "boletus edulis deshidratado",
+    "unidad": "kg",
+    "precio": "48,29"
+  },
+  {
+    "nombre": "bollería variada",
+    "unidad": "unidad",
+    "precio": "0,10"
+  },
+  {
+    "nombre": "bombones",
+    "unidad": "kg",
+    "precio": "24,75"
+  },
+  {
+    "nombre": "bonito aceite",
+    "unidad": "kg",
+    "precio": "9,00"
+  },
+  {
+    "nombre": "bonito fresco",
+    "unidad": "kg",
+    "precio": "2,95"
+  },
+  {
+    "nombre": "bonito lomo congelado",
+    "unidad": "kg",
+    "precio": "7,50"
+  },
+  {
+    "nombre": "bonito migas",
+    "unidad": "kg",
+    "precio": "6,51"
+  },
+  {
+    "nombre": "bonito seco laminas",
+    "unidad": "kg",
+    "precio": "150,00"
+  },
+  {
+    "nombre": "boquerón fresco",
+    "unidad": "kg",
+    "precio": "8,00"
+  },
+  {
+    "nombre": "boquerón vinagre",
+    "unidad": "kg",
+    "precio": "21,62"
+  },
+  {
+    "nombre": "bovril",
+    "unidad": "kg",
+    "precio": "24,38"
+  },
+  {
+    "nombre": "brevas",
+    "unidad": "kg",
+    "precio": "4,80"
+  },
+  {
+    "nombre": "brotes alfalfa",
+    "unidad": "paquete",
+    "precio": "1,75"
+  },
+  {
+    "nombre": "brotes bandeja",
+    "unidad": "unidad",
+    "precio": "1,00"
+  },
+  {
+    "nombre": "brotes de soja",
+    "unidad": "paquete",
+    "precio": "1,85"
+  },
+  {
+    "nombre": "brownie chocolate",
+    "unidad": "kg",
+    "precio": "12,33"
+  },
+  {
+    "nombre": "brownies preparados",
+    "unidad": "kg",
+    "precio": "4,45"
+  },
+  {
+    "nombre": "brócoli",
+    "unidad": "kg",
+    "precio": "3,80"
+  },
+  {
+    "nombre": "brócoli",
+    "unidad": "kg",
+    "precio": "1,00"
+  },
+  {
+    "nombre": "brócoli congelado.",
+    "unidad": "kg",
+    "precio": "1,44"
+  },
+  {
+    "nombre": "bubango",
+    "unidad": "kg",
+    "precio": "1,85"
+  },
+  {
+    "nombre": "buei congelado",
+    "unidad": "kg",
+    "precio": "5,75"
+  },
+  {
+    "nombre": "burro congelado",
+    "unidad": "kg",
+    "precio": "1,95"
+  },
+  {
+    "nombre": "burro fresco",
+    "unidad": "kg",
+    "precio": "7,50"
+  },
+  {
+    "nombre": "butifarra",
+    "unidad": "kg",
+    "precio": "13,48"
+  },
+  {
+    "nombre": "búsgado bigaro",
+    "unidad": "kg",
+    "precio": "11,90"
+  },
+  {
+    "nombre": "caballa ahumada",
+    "unidad": "kg",
+    "precio": "10,00"
+  },
+  {
+    "nombre": "caballa conserva",
+    "unidad": "kg",
+    "precio": "8,76"
+  },
+  {
+    "nombre": "caballa fresco",
+    "unidad": "kg",
+    "precio": "2,64"
+  },
+  {
+    "nombre": "cabello de angel",
+    "unidad": "kg",
+    "precio": "1,64"
+  },
+  {
+    "nombre": "cabeza de cerdo",
+    "unidad": "kg",
+    "precio": "2,50"
+  },
+  {
+    "nombre": "cabeza de pescado fresco",
+    "unidad": "kg",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "cabra fresca",
+    "unidad": "kg",
+    "precio": "4,25"
+  },
+  {
+    "nombre": "cabrilla fresco",
+    "unidad": "kg",
+    "precio": "12,00"
+  },
+  {
+    "nombre": "cabrito fresco",
+    "unidad": "kg",
+    "precio": "12,49"
+  },
+  {
+    "nombre": "cacahuete frito",
+    "unidad": "kg",
+    "precio": "2,59"
+  },
+  {
+    "nombre": "cacao instantaneo",
+    "unidad": "kg",
+    "precio": "1,64"
+  },
+  {
+    "nombre": "cacao polvo",
+    "unidad": "kg",
+    "precio": "8,84"
+  },
+  {
+    "nombre": "cacao sobre instantaneo",
+    "unidad": "unidad",
+    "precio": "0,22"
+  },
+  {
+    "nombre": "cacao sobre sin gluten",
+    "unidad": "kg",
+    "precio": "0,39"
+  },
+  {
+    "nombre": "café descafeinado",
+    "unidad": "kg",
+    "precio": "8,64"
+  },
+  {
+    "nombre": "café descafeinado grano",
+    "unidad": "kg",
+    "precio": "9,06"
+  },
+  {
+    "nombre": "café grano marcilla",
+    "unidad": "kg",
+    "precio": "7,58"
+  },
+  {
+    "nombre": "calabacín",
+    "unidad": "kg",
+    "precio": "0,95"
+  },
+  {
+    "nombre": "calabaza",
+    "unidad": "kg",
+    "precio": "0,57"
+  },
+  {
+    "nombre": "calamar aros congelado",
+    "unidad": "kg",
+    "precio": "10,90"
+  },
+  {
+    "nombre": "calamar chipiron fresco",
+    "unidad": "kg",
+    "precio": "4,00"
+  },
+  {
+    "nombre": "calamar chipiron limpio",
+    "unidad": "kg",
+    "precio": "4,95"
+  },
+  {
+    "nombre": "calamar romana",
+    "unidad": "kg",
+    "precio": "2,99"
+  },
+  {
+    "nombre": "calamar tubo",
+    "unidad": "kg",
+    "precio": "14,90"
+  },
+  {
+    "nombre": "caldo de carne",
+    "unidad": "kg",
+    "precio": "5,07"
+  },
+  {
+    "nombre": "caldo de pollo",
+    "unidad": "kg",
+    "precio": "5,36"
+  },
+  {
+    "nombre": "callos",
+    "unidad": "kg",
+    "precio": "5,95"
+  },
+  {
+    "nombre": "callos congelado.",
+    "unidad": "kg",
+    "precio": "2,39"
+  },
+  {
+    "nombre": "camarón",
+    "unidad": "kg",
+    "precio": "13,00"
+  },
+  {
+    "nombre": "canela en polvo",
+    "unidad": "kg",
+    "precio": "8,77"
+  },
+  {
+    "nombre": "canela en rama",
+    "unidad": "kg",
+    "precio": "20,64"
+  },
+  {
+    "nombre": "canelones",
+    "unidad": "kg",
+    "precio": "0,22"
+  },
+  {
+    "nombre": "canelones rellenos fresco",
+    "unidad": "kg",
+    "precio": "5,90"
+  },
+  {
+    "nombre": "cangrejo mar",
+    "unidad": "kg",
+    "precio": "11,00"
+  },
+  {
+    "nombre": "cangrejo rio fresco",
+    "unidad": "kg",
+    "precio": "9,95"
+  },
+  {
+    "nombre": "canutillo chocolate",
+    "unidad": "kg",
+    "precio": "17,77"
+  },
+  {
+    "nombre": "canónigos",
+    "unidad": "unidad",
+    "precio": "2,50"
+  },
+  {
+    "nombre": "caqui",
+    "unidad": "kg",
+    "precio": "3,00"
+  },
+  {
+    "nombre": "carabineros",
+    "unidad": "kg",
+    "precio": "56,00"
+  },
+  {
+    "nombre": "caramelo cristal",
+    "unidad": "kg",
+    "precio": "4,36"
+  },
+  {
+    "nombre": "cardamomo",
+    "unidad": "kg",
+    "precio": "37,50"
+  },
+  {
+    "nombre": "cardos",
+    "unidad": "kg",
+    "precio": "2,78"
+  },
+  {
+    "nombre": "cardos conserva",
+    "unidad": "kg",
+    "precio": "1,28"
+  },
+  {
+    "nombre": "carga gas sifon",
+    "unidad": "lata",
+    "precio": "0,52"
+  },
+  {
+    "nombre": "carne centollo txangur",
+    "unidad": "kg",
+    "precio": "40,98"
+  },
+  {
+    "nombre": "carne cerdo molida",
+    "unidad": "kg",
+    "precio": "5,88"
+  },
+  {
+    "nombre": "carne molida congelado.",
+    "unidad": "kg",
+    "precio": "3,60"
+  },
+  {
+    "nombre": "carne molida fresc.",
+    "unidad": "kg",
+    "precio": "5,20"
+  },
+  {
+    "nombre": "carne puchero",
+    "unidad": "kg",
+    "precio": "3,60"
+  },
+  {
+    "nombre": "carne vieira",
+    "unidad": "kg",
+    "precio": "10,40"
+  },
+  {
+    "nombre": "carrillera 5ª\\ gama",
+    "unidad": "kg",
+    "precio": "6,78"
+  },
+  {
+    "nombre": "carrillera iberica congelado.",
+    "unidad": "kg",
+    "precio": "9,45"
+  },
+  {
+    "nombre": "carrillera ternera",
+    "unidad": "kg",
+    "precio": "7,35"
+  },
+  {
+    "nombre": "carrilleras cerdo fresc.",
+    "unidad": "kg",
+    "precio": "9,45"
+  },
+  {
+    "nombre": "carré cordero congelado.",
+    "unidad": "kg",
+    "precio": "8,95"
+  },
+  {
+    "nombre": "carré cordero fresc.",
+    "unidad": "kg",
+    "precio": "11,00"
+  },
+  {
+    "nombre": "carré cordero lechal congelado.",
+    "unidad": "kg",
+    "precio": "15,00"
+  },
+  {
+    "nombre": "castanas",
+    "unidad": "kg",
+    "precio": "3,81"
+  },
+  {
+    "nombre": "castaña de agua",
+    "unidad": "kg",
+    "precio": "1,50"
+  },
+  {
+    "nombre": "castaña pelada congelada",
+    "unidad": "kg",
+    "precio": "9,37"
+  },
+  {
+    "nombre": "cayena entera",
+    "unidad": "kg",
+    "precio": "7,95"
+  },
+  {
+    "nombre": "cebolla blanca",
+    "unidad": "kg",
+    "precio": "0,76"
+  },
+  {
+    "nombre": "cebolla deshidratada",
+    "unidad": "kg",
+    "precio": "4,01"
+  },
+  {
+    "nombre": "cebolla roja",
+    "unidad": "kg",
+    "precio": "1,25"
+  },
+  {
+    "nombre": "cebolletas",
+    "unidad": "unidad",
+    "precio": "2,50"
+  },
+  {
+    "nombre": "cebollino",
+    "unidad": "unidad",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "cebollita perla",
+    "unidad": "kg",
+    "precio": "1,62"
+  },
+  {
+    "nombre": "centollo fresco",
+    "unidad": "kg",
+    "precio": "13,42"
+  },
+  {
+    "nombre": "cereales fibra",
+    "unidad": "kg",
+    "precio": "3,27"
+  },
+  {
+    "nombre": "cereza agria",
+    "unidad": "kg",
+    "precio": "5,42"
+  },
+  {
+    "nombre": "cereza negra",
+    "unidad": "kg",
+    "precio": "10,49"
+  },
+  {
+    "nombre": "cereza roja confitada (pas)",
+    "unidad": "kg",
+    "precio": "5,13"
+  },
+  {
+    "nombre": "cereza roja/verde",
+    "unidad": "kg",
+    "precio": "5,13"
+  },
+  {
+    "nombre": "cereza verde confitada (pas)",
+    "unidad": "kg",
+    "precio": "5,37"
+  },
+  {
+    "nombre": "cerezas",
+    "unidad": "kg",
+    "precio": "5,25"
+  },
+  {
+    "nombre": "chalotas",
+    "unidad": "unidad",
+    "precio": "0,85"
+  },
+  {
+    "nombre": "champiñón",
+    "unidad": "kg",
+    "precio": "2,10"
+  },
+  {
+    "nombre": "champiñón laminado",
+    "unidad": "kg",
+    "precio": "1,10"
+  },
+  {
+    "nombre": "cherne congelado lomo",
+    "unidad": "kg",
+    "precio": "12,50"
+  },
+  {
+    "nombre": "cherne entero congelado",
+    "unidad": "kg",
+    "precio": "6,50"
+  },
+  {
+    "nombre": "cherne fresco",
+    "unidad": "kg",
+    "precio": "11,50"
+  },
+  {
+    "nombre": "cherne salado",
+    "unidad": "kg",
+    "precio": "8,50"
+  },
+  {
+    "nombre": "chicharro fresco",
+    "unidad": "kg",
+    "precio": "1,50"
+  },
+  {
+    "nombre": "chicharrones",
+    "unidad": "kg",
+    "precio": "5,80"
+  },
+  {
+    "nombre": "chile fresco",
+    "unidad": "paquete",
+    "precio": "2,70"
+  },
+  {
+    "nombre": "chistorra",
+    "unidad": "kg",
+    "precio": "5,24"
+  },
+  {
+    "nombre": "choco limpio congelado",
+    "unidad": "kg",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "choco sin limpiar congelado",
+    "unidad": "kg",
+    "precio": "5,50"
+  },
+  {
+    "nombre": "chocolate sobre instantaneo",
+    "unidad": "unidad",
+    "precio": "0,14"
+  },
+  {
+    "nombre": "chocolate taza",
+    "unidad": "kg",
+    "precio": "13,25"
+  },
+  {
+    "nombre": "chocolatinas",
+    "unidad": "unidad",
+    "precio": "0,07"
+  },
+  {
+    "nombre": "chopitos puntilla congelado",
+    "unidad": "kg",
+    "precio": "4,65"
+  },
+  {
+    "nombre": "chopped beef",
+    "unidad": "kg",
+    "precio": "2,23"
+  },
+  {
+    "nombre": "chopped pavo",
+    "unidad": "kg",
+    "precio": "2,75"
+  },
+  {
+    "nombre": "chopped pork",
+    "unidad": "kg",
+    "precio": "1,61"
+  },
+  {
+    "nombre": "chorizo asturiano",
+    "unidad": "kg",
+    "precio": "6,13"
+  },
+  {
+    "nombre": "chorizo cocinar",
+    "unidad": "kg",
+    "precio": "4,39"
+  },
+  {
+    "nombre": "chorizo de cantimpalo",
+    "unidad": "kg",
+    "precio": "7,50"
+  },
+  {
+    "nombre": "chorizo extra",
+    "unidad": "kg",
+    "precio": "5,32"
+  },
+  {
+    "nombre": "chorizo iberico bellota",
+    "unidad": "kg",
+    "precio": "10,55"
+  },
+  {
+    "nombre": "chorizo parrillero",
+    "unidad": "kg",
+    "precio": "5,39"
+  },
+  {
+    "nombre": "chorizo sobrasada de untar",
+    "unidad": "kg",
+    "precio": "3,64"
+  },
+  {
+    "nombre": "chufas secas",
+    "unidad": "kg",
+    "precio": "2,60"
+  },
+  {
+    "nombre": "chuleta cordero congelado.",
+    "unidad": "kg",
+    "precio": "5,90"
+  },
+  {
+    "nombre": "chuleta de cerdo congelado.",
+    "unidad": "kg",
+    "precio": "2,50"
+  },
+  {
+    "nombre": "chuleta de cerdo iberico",
+    "unidad": "kg",
+    "precio": "7,50"
+  },
+  {
+    "nombre": "chuletero cerdo congelado.",
+    "unidad": "kg",
+    "precio": "3,10"
+  },
+  {
+    "nombre": "chuletero cerdo fresc.",
+    "unidad": "kg",
+    "precio": "3,40"
+  },
+  {
+    "nombre": "chuletero res fresc.",
+    "unidad": "kg",
+    "precio": "8,95"
+  },
+  {
+    "nombre": "chuletero ternera lechal",
+    "unidad": "kg",
+    "precio": "22,99"
+  },
+  {
+    "nombre": "chupito de chocolate",
+    "unidad": "unidad",
+    "precio": "0,19"
+  },
+  {
+    "nombre": "churros lazos",
+    "unidad": "kg",
+    "precio": "1,08"
+  },
+  {
+    "nombre": "ciervo lomo c/hueso",
+    "unidad": "kg",
+    "precio": "26,53"
+  },
+  {
+    "nombre": "ciervo lomo s/hueso",
+    "unidad": "kg",
+    "precio": "31,50"
+  },
+  {
+    "nombre": "cigala congelado.",
+    "unidad": "kg",
+    "precio": "14,50"
+  },
+  {
+    "nombre": "cigala fresca",
+    "unidad": "kg",
+    "precio": "37,87"
+  },
+  {
+    "nombre": "cilantro",
+    "unidad": "manojo",
+    "precio": "0,28"
+  },
+  {
+    "nombre": "cilantro semilla",
+    "unidad": "kg",
+    "precio": "4,95"
+  },
+  {
+    "nombre": "ciruela amarilla",
+    "unidad": "kg",
+    "precio": "1,63"
+  },
+  {
+    "nombre": "ciruela pasa sin hueso",
+    "unidad": "kg",
+    "precio": "3,26"
+  },
+  {
+    "nombre": "ciruela roja",
+    "unidad": "kg",
+    "precio": "1,02"
+  },
+  {
+    "nombre": "clara liquida",
+    "unidad": "kg",
+    "precio": "2,16"
+  },
+  {
+    "nombre": "clavo en grano",
+    "unidad": "kg",
+    "precio": "17,73"
+  },
+  {
+    "nombre": "cloruro cálcico",
+    "unidad": "lata",
+    "precio": "12,00"
+  },
+  {
+    "nombre": "cobertura blanca",
+    "unidad": "kg",
+    "precio": "2,86"
+  },
+  {
+    "nombre": "cobertura chocolate/leche",
+    "unidad": "kg",
+    "precio": "7,26"
+  },
+  {
+    "nombre": "cobertura chocolate/negro",
+    "unidad": "kg",
+    "precio": "6,69"
+  },
+  {
+    "nombre": "cobertura negra",
+    "unidad": "kg",
+    "precio": "3,51"
+  },
+  {
+    "nombre": "cobertura sucedaneos",
+    "unidad": "kg",
+    "precio": "3,51"
+  },
+  {
+    "nombre": "cochinillo congelado.",
+    "unidad": "kg",
+    "precio": "7,40"
+  },
+  {
+    "nombre": "cochinillo fresc.",
+    "unidad": "kg",
+    "precio": "7,50"
+  },
+  {
+    "nombre": "coco",
+    "unidad": "unidad",
+    "precio": "1,09"
+  },
+  {
+    "nombre": "coco rallado",
+    "unidad": "kg",
+    "precio": "4,17"
+  },
+  {
+    "nombre": "codillo de cerdo congelado.",
+    "unidad": "kg",
+    "precio": "1,00"
+  },
+  {
+    "nombre": "codillo de cerdo horneado",
+    "unidad": "kg",
+    "precio": "4,18"
+  },
+  {
+    "nombre": "codorniz congelado.",
+    "unidad": "kg",
+    "precio": "0,95"
+  },
+  {
+    "nombre": "codorniz fresc.",
+    "unidad": "unidad",
+    "precio": "1,30"
+  },
+  {
+    "nombre": "cogollo lechuga",
+    "unidad": "unidad",
+    "precio": "1,38"
+  },
+  {
+    "nombre": "col",
+    "unidad": "kg",
+    "precio": "1,10"
+  },
+  {
+    "nombre": "col bruselas congelado.",
+    "unidad": "kg",
+    "precio": "2,00"
+  },
+  {
+    "nombre": "col china",
+    "unidad": "kg",
+    "precio": "0,58"
+  },
+  {
+    "nombre": "col morada",
+    "unidad": "kg",
+    "precio": "3,40"
+  },
+  {
+    "nombre": "cola de pescado fresco",
+    "unidad": "kg",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "coliflor",
+    "unidad": "kg",
+    "precio": "1,20"
+  },
+  {
+    "nombre": "coliflor color",
+    "unidad": "kg",
+    "precio": "1,50"
+  },
+  {
+    "nombre": "coliflor granel congelado.",
+    "unidad": "kg",
+    "precio": "1,19"
+  },
+  {
+    "nombre": "colorante alimentario",
+    "unidad": "kg",
+    "precio": "4,92"
+  },
+  {
+    "nombre": "colorante amarillo-yema",
+    "unidad": "l",
+    "precio": "19,15"
+  },
+  {
+    "nombre": "colorante azul",
+    "unidad": "l",
+    "precio": "29,65"
+  },
+  {
+    "nombre": "colorante oro",
+    "unidad": "unidad",
+    "precio": "13,67"
+  },
+  {
+    "nombre": "colorante pasteleria",
+    "unidad": "lata",
+    "precio": "3,61"
+  },
+  {
+    "nombre": "colorante rojo fresa",
+    "unidad": "l",
+    "precio": "25,25"
+  },
+  {
+    "nombre": "colorante verde pistacho",
+    "unidad": "l",
+    "precio": "38,75"
+  },
+  {
+    "nombre": "colorante violeta",
+    "unidad": "unidad",
+    "precio": "4,90"
+  },
+  {
+    "nombre": "comino en grano",
+    "unidad": "kg",
+    "precio": "6,83"
+  },
+  {
+    "nombre": "comino molido",
+    "unidad": "kg",
+    "precio": "4,79"
+  },
+  {
+    "nombre": "concentrado de coco",
+    "unidad": "kg",
+    "precio": "3,86"
+  },
+  {
+    "nombre": "conejo congelado.",
+    "unidad": "kg",
+    "precio": "2,95"
+  },
+  {
+    "nombre": "conejo hígado-rinon",
+    "unidad": "kg",
+    "precio": "15,37"
+  },
+  {
+    "nombre": "conejo lomo-chuleta",
+    "unidad": "kg",
+    "precio": "13,77"
+  },
+  {
+    "nombre": "conejos fresc.",
+    "unidad": "kg",
+    "precio": "3,50"
+  },
+  {
+    "nombre": "confit pato fresc.",
+    "unidad": "unidad",
+    "precio": "2,04"
+  },
+  {
+    "nombre": "confitura de frambuesa",
+    "unidad": "kg",
+    "precio": "3,36"
+  },
+  {
+    "nombre": "confitura de tomate",
+    "unidad": "kg",
+    "precio": "6,00"
+  },
+  {
+    "nombre": "congrio fresco",
+    "unidad": "kg",
+    "precio": "7,50"
+  },
+  {
+    "nombre": "cordero congelado.",
+    "unidad": "kg",
+    "precio": "8,95"
+  },
+  {
+    "nombre": "cordero lechal",
+    "unidad": "kg",
+    "precio": "12,50"
+  },
+  {
+    "nombre": "cordero pata congelado.",
+    "unidad": "kg",
+    "precio": "7,40"
+  },
+  {
+    "nombre": "cordero pelibuey",
+    "unidad": "kg",
+    "precio": "11,00"
+  },
+  {
+    "nombre": "corn flakes",
+    "unidad": "kg",
+    "precio": "2,03"
+  },
+  {
+    "nombre": "corvina congelado",
+    "unidad": "kg",
+    "precio": "8,17"
+  },
+  {
+    "nombre": "corvina filete congelado",
+    "unidad": "kg",
+    "precio": "4,70"
+  },
+  {
+    "nombre": "costilla cerdo fresc.",
+    "unidad": "kg",
+    "precio": "3,45"
+  },
+  {
+    "nombre": "costilla de cerdo congelado.",
+    "unidad": "kg",
+    "precio": "4,25"
+  },
+  {
+    "nombre": "costilla de cerdo salada",
+    "unidad": "kg",
+    "precio": "2,83"
+  },
+  {
+    "nombre": "costillar-falda ternera",
+    "unidad": "kg",
+    "precio": "3,10"
+  },
+  {
+    "nombre": "cous cous",
+    "unidad": "kg",
+    "precio": "3,30"
+  },
+  {
+    "nombre": "crema de cacao",
+    "unidad": "kg",
+    "precio": "3,18"
+  },
+  {
+    "nombre": "crema de cacao porciones",
+    "unidad": "unidad",
+    "precio": "0,13"
+  },
+  {
+    "nombre": "crema de leche porcion",
+    "unidad": "unidad",
+    "precio": "0,02"
+  },
+  {
+    "nombre": "crema de vonagre balsam",
+    "unidad": "l",
+    "precio": "6,52"
+  },
+  {
+    "nombre": "crema pastelera",
+    "unidad": "kg",
+    "precio": "2,49"
+  },
+  {
+    "nombre": "crema puré de castaña",
+    "unidad": "kg",
+    "precio": "10,91"
+  },
+  {
+    "nombre": "crepes",
+    "unidad": "kg",
+    "precio": "0,30"
+  },
+  {
+    "nombre": "croissant congelado.",
+    "unidad": "kg",
+    "precio": "7,46"
+  },
+  {
+    "nombre": "croissant mini congelado.",
+    "unidad": "kg",
+    "precio": "0,20"
+  },
+  {
+    "nombre": "croissant variado",
+    "unidad": "unidad",
+    "precio": "0,13"
+  },
+  {
+    "nombre": "cuadril de ternera congelado.",
+    "unidad": "kg",
+    "precio": "6,70"
+  },
+  {
+    "nombre": "cuadril de ternera fresc.",
+    "unidad": "kg",
+    "precio": "7,50"
+  },
+  {
+    "nombre": "cuajada",
+    "unidad": "kg",
+    "precio": "1,88"
+  },
+  {
+    "nombre": "cuajo",
+    "unidad": "lata",
+    "precio": "5,09"
+  },
+  {
+    "nombre": "curado balsequillo",
+    "unidad": "kg",
+    "precio": "7,85"
+  },
+  {
+    "nombre": "curry",
+    "unidad": "kg",
+    "precio": "5,94"
+  },
+  {
+    "nombre": "cóctel de frutas almibar",
+    "unidad": "kg",
+    "precio": "0,93"
+  },
+  {
+    "nombre": "cóctel de frutos secos",
+    "unidad": "kg",
+    "precio": "27,00"
+  },
+  {
+    "nombre": "cúrcuma",
+    "unidad": "kg",
+    "precio": "8,50"
+  },
+  {
+    "nombre": "decorcrem blanco",
+    "unidad": "kg",
+    "precio": "4,82"
+  },
+  {
+    "nombre": "decorcrem-crema chocolate",
+    "unidad": "kg",
+    "precio": "5,31"
+  },
+  {
+    "nombre": "deli yema",
+    "unidad": "kg",
+    "precio": "4,14"
+  },
+  {
+    "nombre": "descafeinado sobre",
+    "unidad": "unidad",
+    "precio": "0,08"
+  },
+  {
+    "nombre": "dextrosa",
+    "unidad": "kg",
+    "precio": "6,28"
+  },
+  {
+    "nombre": "dorada fresco",
+    "unidad": "kg",
+    "precio": "7,95"
+  },
+  {
+    "nombre": "dulce batata",
+    "unidad": "kg",
+    "precio": "2,82"
+  },
+  {
+    "nombre": "dulce de guayaba",
+    "unidad": "kg",
+    "precio": "3,72"
+  },
+  {
+    "nombre": "dulce de leche",
+    "unidad": "kg",
+    "precio": "4,56"
+  },
+  {
+    "nombre": "dulce guayaba porciones",
+    "unidad": "kg",
+    "precio": "4,27"
+  },
+  {
+    "nombre": "dulce jornada gastronom.",
+    "unidad": "unidad",
+    "precio": "0,90"
+  },
+  {
+    "nombre": "dátiles sin hueso",
+    "unidad": "kg",
+    "precio": "3,25"
+  },
+  {
+    "nombre": "edulcorante en polvo",
+    "unidad": "kg",
+    "precio": "59,70"
+  },
+  {
+    "nombre": "edulcorante en sobre",
+    "unidad": "unidad",
+    "precio": "0,02"
+  },
+  {
+    "nombre": "embutido aleman",
+    "unidad": "kg",
+    "precio": "4,13"
+  },
+  {
+    "nombre": "embutido jornada gastrono",
+    "unidad": "kg",
+    "precio": "10,99"
+  },
+  {
+    "nombre": "emperador lomo fresco",
+    "unidad": "kg",
+    "precio": "2,65"
+  },
+  {
+    "nombre": "emperador salado",
+    "unidad": "kg",
+    "precio": "9,49"
+  },
+  {
+    "nombre": "emulsionante",
+    "unidad": "kg",
+    "precio": "4,95"
+  },
+  {
+    "nombre": "endivia",
+    "unidad": "unidad",
+    "precio": "1,20"
+  },
+  {
+    "nombre": "enebro",
+    "unidad": "kg",
+    "precio": "19,80"
+  },
+  {
+    "nombre": "eneldo",
+    "unidad": "unidad",
+    "precio": "0,80"
+  },
+  {
+    "nombre": "eneldo en grano",
+    "unidad": "kg",
+    "precio": "29,73"
+  },
+  {
+    "nombre": "ensalada variedades",
+    "unidad": "kg",
+    "precio": "2,25"
+  },
+  {
+    "nombre": "ensaladilla congelado.",
+    "unidad": "kg",
+    "precio": "0,91"
+  },
+  {
+    "nombre": "escalope de cerdo",
+    "unidad": "kg",
+    "precio": "1,67"
+  },
+  {
+    "nombre": "escarola",
+    "unidad": "unidad",
+    "precio": "1,85"
+  },
+  {
+    "nombre": "esencia de mantequilla",
+    "unidad": "kg",
+    "precio": "34,93"
+  },
+  {
+    "nombre": "esencia vainilla",
+    "unidad": "kg",
+    "precio": "21,92"
+  },
+  {
+    "nombre": "espagueti fino",
+    "unidad": "kg",
+    "precio": "1,25"
+  },
+  {
+    "nombre": "esparragos finos",
+    "unidad": "kg",
+    "precio": "3,21"
+  },
+  {
+    "nombre": "esparragos gruesos",
+    "unidad": "kg",
+    "precio": "3,92"
+  },
+  {
+    "nombre": "espinaca fresca",
+    "unidad": "kg",
+    "precio": "1,99"
+  },
+  {
+    "nombre": "espinacas congelado.",
+    "unidad": "kg",
+    "precio": "0,80"
+  },
+  {
+    "nombre": "espirales lazo huevo",
+    "unidad": "kg",
+    "precio": "1,17"
+  },
+  {
+    "nombre": "espirales lazo tricolor",
+    "unidad": "kg",
+    "precio": "2,33"
+  },
+  {
+    "nombre": "espárrago tallo",
+    "unidad": "kg",
+    "precio": "1,24"
+  },
+  {
+    "nombre": "espárrago triguero",
+    "unidad": "kg",
+    "precio": "5,40"
+  },
+  {
+    "nombre": "espárrago verde congelado.",
+    "unidad": "kg",
+    "precio": "6,24"
+  },
+  {
+    "nombre": "espárrago verde fresco",
+    "unidad": "unidad",
+    "precio": "1,80"
+  },
+  {
+    "nombre": "estabilizante helados",
+    "unidad": "kg",
+    "precio": "13,23"
+  },
+  {
+    "nombre": "estabilizante sorbete",
+    "unidad": "l",
+    "precio": "8,87"
+  },
+  {
+    "nombre": "estragón",
+    "unidad": "kg",
+    "precio": "19,92"
+  },
+  {
+    "nombre": "estragón fresco",
+    "unidad": "unidad",
+    "precio": "0,80"
+  },
+  {
+    "nombre": "fettuccini al huevo",
+    "unidad": "kg",
+    "precio": "2,38"
+  },
+  {
+    "nombre": "fetuccini espinacas sémola",
+    "unidad": "kg",
+    "precio": "4,30"
+  },
+  {
+    "nombre": "fiambre extra",
+    "unidad": "kg",
+    "precio": "6,33"
+  },
+  {
+    "nombre": "fideo de arroz",
+    "unidad": "kg",
+    "precio": "7,47"
+  },
+  {
+    "nombre": "fideo grueso",
+    "unidad": "kg",
+    "precio": "1,19"
+  },
+  {
+    "nombre": "fideos finos",
+    "unidad": "kg",
+    "precio": "1,19"
+  },
+  {
+    "nombre": "filete de corvina salada",
+    "unidad": "kg",
+    "precio": "7,75"
+  },
+  {
+    "nombre": "filete de res congelado.",
+    "unidad": "kg",
+    "precio": "6,49"
+  },
+  {
+    "nombre": "filigrana chocolate",
+    "unidad": "unidad",
+    "precio": "0,04"
+  },
+  {
+    "nombre": "filigrana de azúcar",
+    "unidad": "paquete",
+    "precio": "12,12"
+  },
+  {
+    "nombre": "flor calabacín",
+    "unidad": "unidad",
+    "precio": "0,30"
+  },
+  {
+    "nombre": "flores decoración pastel",
+    "unidad": "unidad",
+    "precio": "13,07"
+  },
+  {
+    "nombre": "foie gras canapés",
+    "unidad": "kg",
+    "precio": "30,85"
+  },
+  {
+    "nombre": "frambuesa",
+    "unidad": "paquete",
+    "precio": "4,04"
+  },
+  {
+    "nombre": "frambuesas congelado.",
+    "unidad": "kg",
+    "precio": "4,04"
+  },
+  {
+    "nombre": "frangollo",
+    "unidad": "kg",
+    "precio": "2,25"
+  },
+  {
+    "nombre": "fresa congelado.",
+    "unidad": "kg",
+    "precio": "2,30"
+  },
+  {
+    "nombre": "fresas",
+    "unidad": "kg",
+    "precio": "4,37"
+  },
+  {
+    "nombre": "fructosa",
+    "unidad": "kg",
+    "precio": "7,20"
+  },
+  {
+    "nombre": "fruta confitada entera",
+    "unidad": "kg",
+    "precio": "15,60"
+  },
+  {
+    "nombre": "fruta confitada trozos",
+    "unidad": "kg",
+    "precio": "2,99"
+  },
+  {
+    "nombre": "frutas del bosque congelado.",
+    "unidad": "kg",
+    "precio": "2,79"
+  },
+  {
+    "nombre": "fuet",
+    "unidad": "kg",
+    "precio": "8,40"
+  },
+  {
+    "nombre": "fumet",
+    "unidad": "l",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "galletas digestivas",
+    "unidad": "kg",
+    "precio": "2,06"
+  },
+  {
+    "nombre": "galletas ecológicas",
+    "unidad": "kg",
+    "precio": "10,40"
+  },
+  {
+    "nombre": "galletas maria",
+    "unidad": "kg",
+    "precio": "1,38"
+  },
+  {
+    "nombre": "galletas paquete 25-30g",
+    "unidad": "unidad",
+    "precio": "0,08"
+  },
+  {
+    "nombre": "gallina fresc.",
+    "unidad": "kg",
+    "precio": "1,85"
+  },
+  {
+    "nombre": "gallo de corral",
+    "unidad": "kg",
+    "precio": "6,05"
+  },
+  {
+    "nombre": "gamba fresca",
+    "unidad": "kg",
+    "precio": "45,00"
+  },
+  {
+    "nombre": "gambas #5",
+    "unidad": "kg",
+    "precio": "5,40"
+  },
+  {
+    "nombre": "gambas pelada",
+    "unidad": "kg",
+    "precio": "4,70"
+  },
+  {
+    "nombre": "garbanzo frasco",
+    "unidad": "kg",
+    "precio": "1,17"
+  },
+  {
+    "nombre": "garbanzo lechoso",
+    "unidad": "kg",
+    "precio": "2,09"
+  },
+  {
+    "nombre": "garrón fresc.",
+    "unidad": "kg",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "gel de sílice",
+    "unidad": "kg",
+    "precio": "30,66"
+  },
+  {
+    "nombre": "gelatina (brillo)",
+    "unidad": "kg",
+    "precio": "1,47"
+  },
+  {
+    "nombre": "gelatina en láminas",
+    "unidad": "kg",
+    "precio": "21,87"
+  },
+  {
+    "nombre": "gelatina fría",
+    "unidad": "kg",
+    "precio": "4,43"
+  },
+  {
+    "nombre": "gelatina polvo",
+    "unidad": "kg",
+    "precio": "4,43"
+  },
+  {
+    "nombre": "germinado paquete",
+    "unidad": "paquete",
+    "precio": "3,00"
+  },
+  {
+    "nombre": "glucosa",
+    "unidad": "kg",
+    "precio": "2,47"
+  },
+  {
+    "nombre": "glucosa atomizada",
+    "unidad": "kg",
+    "precio": "47,74"
+  },
+  {
+    "nombre": "gofio",
+    "unidad": "kg",
+    "precio": "1,45"
+  },
+  {
+    "nombre": "gofio sobre individual 25 g",
+    "unidad": "unidad",
+    "precio": "0,07"
+  },
+  {
+    "nombre": "gotas chocolate",
+    "unidad": "kg",
+    "precio": "8,30"
+  },
+  {
+    "nombre": "granada",
+    "unidad": "kg",
+    "precio": "2,40"
+  },
+  {
+    "nombre": "granillo chocolate sucedaneo",
+    "unidad": "kg",
+    "precio": "6,13"
+  },
+  {
+    "nombre": "granillo crocanti",
+    "unidad": "kg",
+    "precio": "2,73"
+  },
+  {
+    "nombre": "granos café chocolate",
+    "unidad": "kg",
+    "precio": "11,35"
+  },
+  {
+    "nombre": "grasa de pato",
+    "unidad": "kg",
+    "precio": "14,09"
+  },
+  {
+    "nombre": "grasa vegetan¡l pasteleria",
+    "unidad": "kg",
+    "precio": "2,22"
+  },
+  {
+    "nombre": "grosella congelado.",
+    "unidad": "kg",
+    "precio": "1,80"
+  },
+  {
+    "nombre": "guayabo",
+    "unidad": "unidad",
+    "precio": "1,16"
+  },
+  {
+    "nombre": "guindas agrias",
+    "unidad": "kg",
+    "precio": "3,18"
+  },
+  {
+    "nombre": "guindilla",
+    "unidad": "kg",
+    "precio": "1,75"
+  },
+  {
+    "nombre": "guisante congelado.",
+    "unidad": "kg",
+    "precio": "0,95"
+  },
+  {
+    "nombre": "guisantes",
+    "unidad": "kg",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "habas baby",
+    "unidad": "kg",
+    "precio": "10,20"
+  },
+  {
+    "nombre": "habas de cacao",
+    "unidad": "kg",
+    "precio": "31,10"
+  },
+  {
+    "nombre": "habas finas congelado.",
+    "unidad": "kg",
+    "precio": "1,73"
+  },
+  {
+    "nombre": "habas fritas",
+    "unidad": "kg",
+    "precio": "20,25"
+  },
+  {
+    "nombre": "habichuelas",
+    "unidad": "kg",
+    "precio": "1,50"
+  },
+  {
+    "nombre": "hamburguesa 5ª\\ gama",
+    "unidad": "kg",
+    "precio": "34,00"
+  },
+  {
+    "nombre": "hamburguesa congelado.",
+    "unidad": "kg",
+    "precio": "1,73"
+  },
+  {
+    "nombre": "hamburguesas",
+    "unidad": "kg",
+    "precio": "5,67"
+  },
+  {
+    "nombre": "harina cereales",
+    "unidad": "kg",
+    "precio": "2,54"
+  },
+  {
+    "nombre": "harina de arepas",
+    "unidad": "kg",
+    "precio": "1,51"
+  },
+  {
+    "nombre": "harina de arroz",
+    "unidad": "kg",
+    "precio": "1,92"
+  },
+  {
+    "nombre": "harina de centeno",
+    "unidad": "kg",
+    "precio": "1,67"
+  },
+  {
+    "nombre": "harina de garbanzo",
+    "unidad": "kg",
+    "precio": "4,10"
+  },
+  {
+    "nombre": "harina de maíz",
+    "unidad": "kg",
+    "precio": "1,54"
+  },
+  {
+    "nombre": "harina entrefuerte",
+    "unidad": "kg",
+    "precio": "0,38"
+  },
+  {
+    "nombre": "harina floja",
+    "unidad": "kg",
+    "precio": "0,53"
+  },
+  {
+    "nombre": "harina fuerza",
+    "unidad": "kg",
+    "precio": "0,54"
+  },
+  {
+    "nombre": "harina integral",
+    "unidad": "kg",
+    "precio": "0,56"
+  },
+  {
+    "nombre": "helado lt",
+    "unidad": "l",
+    "precio": "0,72"
+  },
+  {
+    "nombre": "hierba buena",
+    "unidad": "unidad",
+    "precio": "0,28"
+  },
+  {
+    "nombre": "hierbas aromáticas",
+    "unidad": "kg",
+    "precio": "7,60"
+  },
+  {
+    "nombre": "higos picos",
+    "unidad": "kg",
+    "precio": "1,20"
+  },
+  {
+    "nombre": "higos secos",
+    "unidad": "kg",
+    "precio": "3,11"
+  },
+  {
+    "nombre": "hinojos",
+    "unidad": "kg",
+    "precio": "0,50"
+  },
+  {
+    "nombre": "hojas de azúcar",
+    "unidad": "unidad",
+    "precio": "0,05"
+  },
+  {
+    "nombre": "hojas de parra",
+    "unidad": "kg",
+    "precio": "0,98"
+  },
+  {
+    "nombre": "huesos",
+    "unidad": "kg",
+    "precio": "2,75"
+  },
+  {
+    "nombre": "huesos de jamón",
+    "unidad": "kg",
+    "precio": "1,85"
+  },
+  {
+    "nombre": "huevas de arenque",
+    "unidad": "kg",
+    "precio": "89,46"
+  },
+  {
+    "nombre": "huevas de erizo",
+    "unidad": "kg",
+    "precio": "115,40"
+  },
+  {
+    "nombre": "huevas de lumpo",
+    "unidad": "kg",
+    "precio": "18,00"
+  },
+  {
+    "nombre": "huevas de salmón",
+    "unidad": "kg",
+    "precio": "62,03"
+  },
+  {
+    "nombre": "huevo liquido",
+    "unidad": "kg",
+    "precio": "1,73"
+  },
+  {
+    "nombre": "huevos de codorniz",
+    "unidad": "unidad",
+    "precio": "0,07"
+  },
+  {
+    "nombre": "huevos de pascua",
+    "unidad": "unidad",
+    "precio": "1,20"
+  },
+  {
+    "nombre": "huevos m",
+    "unidad": "unidad",
+    "precio": "0,09"
+  },
+  {
+    "nombre": "huevos xl",
+    "unidad": "unidad",
+    "precio": "0,19"
+  },
+  {
+    "nombre": "hígado de cerdo",
+    "unidad": "kg",
+    "precio": "2,24"
+  },
+  {
+    "nombre": "hígado de pollo",
+    "unidad": "kg",
+    "precio": "1,90"
+  },
+  {
+    "nombre": "hígado de vacuno",
+    "unidad": "kg",
+    "precio": "2,95"
+  },
+  {
+    "nombre": "impulsor en polvo",
+    "unidad": "kg",
+    "precio": "4,32"
+  },
+  {
+    "nombre": "ingredientes",
+    "unidad": "unidad",
+    "precio": "PRECIO / UNID"
+  },
+  {
+    "nombre": "jabalí ragout/tacos",
+    "unidad": "kg",
+    "precio": "8,94"
+  },
+  {
+    "nombre": "jamoncito de ala congelado.",
+    "unidad": "kg",
+    "precio": "2,35"
+  },
+  {
+    "nombre": "jamón bodega sin\\ hueso",
+    "unidad": "kg",
+    "precio": "8,67"
+  },
+  {
+    "nombre": "jamón iberico bellota sin\\ hueso",
+    "unidad": "kg",
+    "precio": "12,24"
+  },
+  {
+    "nombre": "jamón iberico de cebo",
+    "unidad": "kg",
+    "precio": "35,00"
+  },
+  {
+    "nombre": "jamón iberico pn bellota",
+    "unidad": "kg",
+    "precio": "8,91"
+  },
+  {
+    "nombre": "jamón serrano",
+    "unidad": "kg",
+    "precio": "8,30"
+  },
+  {
+    "nombre": "jamón york 11x11",
+    "unidad": "kg",
+    "precio": "2,02"
+  },
+  {
+    "nombre": "jamón york extra",
+    "unidad": "kg",
+    "precio": "4,51"
+  },
+  {
+    "nombre": "jareas de pescado",
+    "unidad": "kg",
+    "precio": "17,09"
+  },
+  {
+    "nombre": "jengibre",
+    "unidad": "kg",
+    "precio": "3,80"
+  },
+  {
+    "nombre": "jengibre molido",
+    "unidad": "kg",
+    "precio": "5,60"
+  },
+  {
+    "nombre": "judias congelado.",
+    "unidad": "kg",
+    "precio": "1,01"
+  },
+  {
+    "nombre": "judía verde ancha",
+    "unidad": "kg",
+    "precio": "3,63"
+  },
+  {
+    "nombre": "ketchup sobre",
+    "unidad": "unidad",
+    "precio": "0,03"
+  },
+  {
+    "nombre": "kiwi",
+    "unidad": "kg",
+    "precio": "1,76"
+  },
+  {
+    "nombre": "lagrimas ibericas",
+    "unidad": "kg",
+    "precio": "9,20"
+  },
+  {
+    "nombre": "langosta congelado.",
+    "unidad": "kg",
+    "precio": "21,85"
+  },
+  {
+    "nombre": "langostino 2",
+    "unidad": "kg",
+    "precio": "16,00"
+  },
+  {
+    "nombre": "langostino 3",
+    "unidad": "kg",
+    "precio": "7,75"
+  },
+  {
+    "nombre": "langostino 4",
+    "unidad": "kg",
+    "precio": "8,00"
+  },
+  {
+    "nombre": "langostino 5",
+    "unidad": "kg",
+    "precio": "6,75"
+  },
+  {
+    "nombre": "lapas fresco",
+    "unidad": "kg",
+    "precio": "7,95"
+  },
+  {
+    "nombre": "lasana",
+    "unidad": "kg",
+    "precio": "8,33"
+  },
+  {
+    "nombre": "laurel",
+    "unidad": "kg",
+    "precio": "16,66"
+  },
+  {
+    "nombre": "lavanda",
+    "unidad": "kg",
+    "precio": "18,50"
+  },
+  {
+    "nombre": "leche cabra",
+    "unidad": "l",
+    "precio": "1,12"
+  },
+  {
+    "nombre": "leche condensada",
+    "unidad": "kg",
+    "precio": "1,85"
+  },
+  {
+    "nombre": "leche condesada",
+    "unidad": "sobre",
+    "precio": "0,07"
+  },
+  {
+    "nombre": "leche de almendras",
+    "unidad": "l",
+    "precio": "2,20"
+  },
+  {
+    "nombre": "leche de avena",
+    "unidad": "l",
+    "precio": "1,52"
+  },
+  {
+    "nombre": "leche de coco",
+    "unidad": "l",
+    "precio": "2,90"
+  },
+  {
+    "nombre": "leche de soja",
+    "unidad": "l",
+    "precio": "0,98"
+  },
+  {
+    "nombre": "leche desnatada",
+    "unidad": "l",
+    "precio": "0,54"
+  },
+  {
+    "nombre": "leche en polvo",
+    "unidad": "kg",
+    "precio": "5,23"
+  },
+  {
+    "nombre": "leche entera",
+    "unidad": "l",
+    "precio": "0,55"
+  },
+  {
+    "nombre": "leche entera sin lactosa",
+    "unidad": "l",
+    "precio": "1,35"
+  },
+  {
+    "nombre": "leche evaporado",
+    "unidad": "l",
+    "precio": "1,95"
+  },
+  {
+    "nombre": "leche fresca",
+    "unidad": "kg",
+    "precio": "0,89"
+  },
+  {
+    "nombre": "leche semidesnatada",
+    "unidad": "l",
+    "precio": "0,89"
+  },
+  {
+    "nombre": "lechuga",
+    "unidad": "kg",
+    "precio": "1,20"
+  },
+  {
+    "nombre": "lechuga iceberg",
+    "unidad": "kg",
+    "precio": "3,50"
+  },
+  {
+    "nombre": "lechuga roja",
+    "unidad": "kg",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "lecitina soja",
+    "unidad": "kg",
+    "precio": "56,60"
+  },
+  {
+    "nombre": "lengua res",
+    "unidad": "kg",
+    "precio": "5,00"
+  },
+  {
+    "nombre": "lenguado entero congelado",
+    "unidad": "kg",
+    "precio": "5,60"
+  },
+  {
+    "nombre": "lenguado filete congelado",
+    "unidad": "kg",
+    "precio": "4,80"
+  },
+  {
+    "nombre": "lenguado fresco",
+    "unidad": "kg",
+    "precio": "16,80"
+  },
+  {
+    "nombre": "lenteja colores hindu",
+    "unidad": "kg",
+    "precio": "2,50"
+  },
+  {
+    "nombre": "lenteja de lanzarote",
+    "unidad": "kg",
+    "precio": "1,59"
+  },
+  {
+    "nombre": "lenteja peqeuna",
+    "unidad": "kg",
+    "precio": "1,33"
+  },
+  {
+    "nombre": "levadura para pan",
+    "unidad": "kg",
+    "precio": "8,80"
+  },
+  {
+    "nombre": "lima",
+    "unidad": "kg",
+    "precio": "4,80"
+  },
+  {
+    "nombre": "limones",
+    "unidad": "kg",
+    "precio": "2,15"
+  },
+  {
+    "nombre": "limón confitado",
+    "unidad": "kg",
+    "precio": "8,75"
+  },
+  {
+    "nombre": "limón polvo",
+    "unidad": "kg",
+    "precio": "17,96"
+  },
+  {
+    "nombre": "lomo adobado",
+    "unidad": "kg",
+    "precio": "3,95"
+  },
+  {
+    "nombre": "lomo bola congelado.",
+    "unidad": "kg",
+    "precio": "5,00"
+  },
+  {
+    "nombre": "lomo bola fresc.",
+    "unidad": "kg",
+    "precio": "5,90"
+  },
+  {
+    "nombre": "lomo buey",
+    "unidad": "kg",
+    "precio": "6,95"
+  },
+  {
+    "nombre": "lomo cinta congelado.",
+    "unidad": "kg",
+    "precio": "3,15"
+  },
+  {
+    "nombre": "lomo cinta fresc.",
+    "unidad": "kg",
+    "precio": "6,95"
+  },
+  {
+    "nombre": "lomo embuchado",
+    "unidad": "kg",
+    "precio": "31,87"
+  },
+  {
+    "nombre": "lomo iberico bellota",
+    "unidad": "kg",
+    "precio": "25,58"
+  },
+  {
+    "nombre": "lubina fresco",
+    "unidad": "kg",
+    "precio": "7,95"
+  },
+  {
+    "nombre": "lubina salada",
+    "unidad": "kg",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "lychee",
+    "unidad": "kg",
+    "precio": "4,25"
+  },
+  {
+    "nombre": "macadamia",
+    "unidad": "kg",
+    "precio": "15,95"
+  },
+  {
+    "nombre": "macarrones concha",
+    "unidad": "kg",
+    "precio": "1,19"
+  },
+  {
+    "nombre": "macarrones pluma",
+    "unidad": "kg",
+    "precio": "1,13"
+  },
+  {
+    "nombre": "macarrón fresco",
+    "unidad": "kg",
+    "precio": "6,11"
+  },
+  {
+    "nombre": "magret de pato",
+    "unidad": "unidad",
+    "precio": "11,80"
+  },
+  {
+    "nombre": "magret de pato congelado.",
+    "unidad": "kg",
+    "precio": "14,20"
+  },
+  {
+    "nombre": "magro de cerdo",
+    "unidad": "kg",
+    "precio": "6,50"
+  },
+  {
+    "nombre": "maicena",
+    "unidad": "kg",
+    "precio": "4,33"
+  },
+  {
+    "nombre": "malta tostado",
+    "unidad": "kg",
+    "precio": "2,10"
+  },
+  {
+    "nombre": "maltosa",
+    "unidad": "kg",
+    "precio": "3,00"
+  },
+  {
+    "nombre": "mandarinas",
+    "unidad": "kg",
+    "precio": "1,45"
+  },
+  {
+    "nombre": "manga roja",
+    "unidad": "kg",
+    "precio": "4,00"
+  },
+  {
+    "nombre": "mango chutney",
+    "unidad": "kg",
+    "precio": "3,00"
+  },
+  {
+    "nombre": "mango congelado.",
+    "unidad": "kg",
+    "precio": "2,48"
+  },
+  {
+    "nombre": "mango conserva",
+    "unidad": "kg",
+    "precio": "2,81"
+  },
+  {
+    "nombre": "mangos",
+    "unidad": "kg",
+    "precio": "2,80"
+  },
+  {
+    "nombre": "manos de cerdo",
+    "unidad": "kg",
+    "precio": "0,90"
+  },
+  {
+    "nombre": "manteca confitada",
+    "unidad": "kg",
+    "precio": "2,27"
+  },
+  {
+    "nombre": "manteca de cacao",
+    "unidad": "kg",
+    "precio": "23,75"
+  },
+  {
+    "nombre": "manteca de cerdo",
+    "unidad": "kg",
+    "precio": "1,53"
+  },
+  {
+    "nombre": "mantequilla",
+    "unidad": "kg",
+    "precio": "4,82"
+  },
+  {
+    "nombre": "mantequilla clarificada",
+    "unidad": "kg",
+    "precio": "10,60"
+  },
+  {
+    "nombre": "mantequilla porcion",
+    "unidad": "kg",
+    "precio": "0,05"
+  },
+  {
+    "nombre": "manzana golden",
+    "unidad": "kg",
+    "precio": "1,15"
+  },
+  {
+    "nombre": "manzana reineta",
+    "unidad": "kg",
+    "precio": "1,85"
+  },
+  {
+    "nombre": "manzana roja",
+    "unidad": "kg",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "manzanilla",
+    "unidad": "kg",
+    "precio": "10,50"
+  },
+  {
+    "nombre": "manzanilla sobre",
+    "unidad": "sobre",
+    "precio": "0,04"
+  },
+  {
+    "nombre": "margarina croissant",
+    "unidad": "kg",
+    "precio": "2,33"
+  },
+  {
+    "nombre": "margarina hojaldre",
+    "unidad": "kg",
+    "precio": "2,33"
+  },
+  {
+    "nombre": "margarina porcion",
+    "unidad": "kg",
+    "precio": "0,03"
+  },
+  {
+    "nombre": "marrón glacé",
+    "unidad": "kg",
+    "precio": "38,83"
+  },
+  {
+    "nombre": "mayonesa",
+    "unidad": "kg",
+    "precio": "1,25"
+  },
+  {
+    "nombre": "mayonesa sobre",
+    "unidad": "unidad",
+    "precio": "0,03"
+  },
+  {
+    "nombre": "mazapán",
+    "unidad": "kg",
+    "precio": "5,96"
+  },
+  {
+    "nombre": "maíz congelado.",
+    "unidad": "kg",
+    "precio": "2,01"
+  },
+  {
+    "nombre": "maíz dulce",
+    "unidad": "kg",
+    "precio": "0,99"
+  },
+  {
+    "nombre": "medregal congelado",
+    "unidad": "kg",
+    "precio": "4,10"
+  },
+  {
+    "nombre": "mejillón congelado",
+    "unidad": "kg",
+    "precio": "5,20"
+  },
+  {
+    "nombre": "mejillón fresco",
+    "unidad": "kg",
+    "precio": "5,20"
+  },
+  {
+    "nombre": "mejorante",
+    "unidad": "kg",
+    "precio": "6,04"
+  },
+  {
+    "nombre": "mejorante precocinado",
+    "unidad": "kg",
+    "precio": "5,30"
+  },
+  {
+    "nombre": "melisa",
+    "unidad": "unidad",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "melocotón",
+    "unidad": "kg",
+    "precio": "1,25"
+  },
+  {
+    "nombre": "melocotón almibar",
+    "unidad": "kg",
+    "precio": "0,86"
+  },
+  {
+    "nombre": "melon",
+    "unidad": "kg",
+    "precio": "0,89"
+  },
+  {
+    "nombre": "membrillo",
+    "unidad": "kg",
+    "precio": "3,72"
+  },
+  {
+    "nombre": "membrillo porcion",
+    "unidad": "unidad",
+    "precio": "4,27"
+  },
+  {
+    "nombre": "menestra congelado.",
+    "unidad": "kg",
+    "precio": "0,86"
+  },
+  {
+    "nombre": "menta",
+    "unidad": "manojo",
+    "precio": "0,50"
+  },
+  {
+    "nombre": "menta poleo",
+    "unidad": "sobre",
+    "precio": "0,04"
+  },
+  {
+    "nombre": "merlucilla-pescadilla",
+    "unidad": "kg",
+    "precio": "6,79"
+  },
+  {
+    "nombre": "merluza entera congelado",
+    "unidad": "kg",
+    "precio": "4,90"
+  },
+  {
+    "nombre": "merluza filete c/piel congelado",
+    "unidad": "kg",
+    "precio": "3,14"
+  },
+  {
+    "nombre": "merluza filete s/piel congelado",
+    "unidad": "kg",
+    "precio": "3,10"
+  },
+  {
+    "nombre": "merluza fresco",
+    "unidad": "kg",
+    "precio": "8,95"
+  },
+  {
+    "nombre": "mermelada arándano",
+    "unidad": "kg",
+    "precio": "3,64"
+  },
+  {
+    "nombre": "mermelada dietética sabores",
+    "unidad": "kg",
+    "precio": "5,10"
+  },
+  {
+    "nombre": "mermelada frambuesa-pa",
+    "unidad": "kg",
+    "precio": "2,15"
+  },
+  {
+    "nombre": "mermelada fresa-past.",
+    "unidad": "kg",
+    "precio": "2,05"
+  },
+  {
+    "nombre": "mermelada hotel porción",
+    "unidad": "unidad",
+    "precio": "0,20"
+  },
+  {
+    "nombre": "mermelada kiwi-pastel",
+    "unidad": "kg",
+    "precio": "2,08"
+  },
+  {
+    "nombre": "mermelada naranja past.",
+    "unidad": "kg",
+    "precio": "3,76"
+  },
+  {
+    "nombre": "mermelada personal porción",
+    "unidad": "unidad",
+    "precio": "0,03"
+  },
+  {
+    "nombre": "mermelada sabores",
+    "unidad": "kg",
+    "precio": "2,28"
+  },
+  {
+    "nombre": "mero filete congelado",
+    "unidad": "kg",
+    "precio": "4,85"
+  },
+  {
+    "nombre": "mero fresco",
+    "unidad": "kg",
+    "precio": "13,90"
+  },
+  {
+    "nombre": "mezcla de setas",
+    "unidad": "kg",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "mezcla verduras sopa",
+    "unidad": "kg",
+    "precio": "1,55"
+  },
+  {
+    "nombre": "micro mezclum",
+    "unidad": "kg",
+    "precio": "27,00"
+  },
+  {
+    "nombre": "miel de abeja",
+    "unidad": "l",
+    "precio": "4,09"
+  },
+  {
+    "nombre": "miel de cana",
+    "unidad": "kg",
+    "precio": "6,20"
+  },
+  {
+    "nombre": "miel de palma",
+    "unidad": "kg",
+    "precio": "19,51"
+  },
+  {
+    "nombre": "miel de romero",
+    "unidad": "kg",
+    "precio": "7,77"
+  },
+  {
+    "nombre": "miel en porciones",
+    "unidad": "unidad",
+    "precio": "0,20"
+  },
+  {
+    "nombre": "mini cono chocolate",
+    "unidad": "unidad",
+    "precio": "0,57"
+  },
+  {
+    "nombre": "mini delicia dulce surtida",
+    "unidad": "kg",
+    "precio": "3,97"
+  },
+  {
+    "nombre": "mini delicia salada surtida",
+    "unidad": "kg",
+    "precio": "5,60"
+  },
+  {
+    "nombre": "mini mazorcas",
+    "unidad": "kg",
+    "precio": "3,17"
+  },
+  {
+    "nombre": "mini pepino conserva",
+    "unidad": "kg",
+    "precio": "7,08"
+  },
+  {
+    "nombre": "mini pimiento",
+    "unidad": "kg",
+    "precio": "4,00"
+  },
+  {
+    "nombre": "miso",
+    "unidad": "kg",
+    "precio": "6,00"
+  },
+  {
+    "nombre": "mojo rojo",
+    "unidad": "kg",
+    "precio": "13,86"
+  },
+  {
+    "nombre": "mora",
+    "unidad": "paquete",
+    "precio": "3,55"
+  },
+  {
+    "nombre": "moras congelado.",
+    "unidad": "kg",
+    "precio": "3,71"
+  },
+  {
+    "nombre": "morcilla dulce",
+    "unidad": "kg",
+    "precio": "3,73"
+  },
+  {
+    "nombre": "morcilla salada",
+    "unidad": "kg",
+    "precio": "1,61"
+  },
+  {
+    "nombre": "morcillo-garrón ternera",
+    "unidad": "kg",
+    "precio": "6,00"
+  },
+  {
+    "nombre": "morcon",
+    "unidad": "kg",
+    "precio": "19,20"
+  },
+  {
+    "nombre": "morena fresco",
+    "unidad": "kg",
+    "precio": "8,50"
+  },
+  {
+    "nombre": "morilla deshidratada",
+    "unidad": "kg",
+    "precio": "516,66"
+  },
+  {
+    "nombre": "mortadela",
+    "unidad": "kg",
+    "precio": "5,63"
+  },
+  {
+    "nombre": "mostaza dijon",
+    "unidad": "kg",
+    "precio": "12,23"
+  },
+  {
+    "nombre": "mostaza dulce",
+    "unidad": "kg",
+    "precio": "10,15"
+  },
+  {
+    "nombre": "mostaza fuerte",
+    "unidad": "kg",
+    "precio": "5,55"
+  },
+  {
+    "nombre": "mostaza grano",
+    "unidad": "kg",
+    "precio": "11,91"
+  },
+  {
+    "nombre": "mostaza sobre",
+    "unidad": "unidad",
+    "precio": "0,20"
+  },
+  {
+    "nombre": "mousse de pato",
+    "unidad": "kg",
+    "precio": "6,67"
+  },
+  {
+    "nombre": "muesli",
+    "unidad": "kg",
+    "precio": "1,64"
+  },
+  {
+    "nombre": "muslo faisan relleno",
+    "unidad": "unidad",
+    "precio": "3,40"
+  },
+  {
+    "nombre": "nabo blanco",
+    "unidad": "kg",
+    "precio": "1,80"
+  },
+  {
+    "nombre": "nachos",
+    "unidad": "kg",
+    "precio": "6,88"
+  },
+  {
+    "nombre": "nalga",
+    "unidad": "kg",
+    "precio": "5,90"
+  },
+  {
+    "nombre": "names",
+    "unidad": "kg",
+    "precio": "5,40"
+  },
+  {
+    "nombre": "naranja",
+    "unidad": "kg",
+    "precio": "1,32"
+  },
+  {
+    "nombre": "naranja confitada",
+    "unidad": "kg",
+    "precio": "3,67"
+  },
+  {
+    "nombre": "nata en espray",
+    "unidad": "unidad",
+    "precio": "0,95"
+  },
+  {
+    "nombre": "nata liquida",
+    "unidad": "l",
+    "precio": "2,45"
+  },
+  {
+    "nombre": "nata mix vegetal",
+    "unidad": "l",
+    "precio": "2,23"
+  },
+  {
+    "nombre": "navajas congelado.",
+    "unidad": "kg",
+    "precio": "4,75"
+  },
+  {
+    "nombre": "necoras",
+    "unidad": "kg",
+    "precio": "8,80"
+  },
+  {
+    "nombre": "nectarina",
+    "unidad": "kg",
+    "precio": "14,00"
+  },
+  {
+    "nombre": "ninos comunion",
+    "unidad": "unidad",
+    "precio": "2,53"
+  },
+  {
+    "nombre": "noras",
+    "unidad": "kg",
+    "precio": "35,00"
+  },
+  {
+    "nombre": "nueces cascara",
+    "unidad": "kg",
+    "precio": "2,00"
+  },
+  {
+    "nombre": "nueces peladas",
+    "unidad": "kg",
+    "precio": "10,93"
+  },
+  {
+    "nombre": "nuez moscada",
+    "unidad": "kg",
+    "precio": "2,08"
+  },
+  {
+    "nombre": "nuez moscada",
+    "unidad": "unidad",
+    "precio": "1,94"
+  },
+  {
+    "nombre": "níscalo",
+    "unidad": "kg",
+    "precio": "3,00"
+  },
+  {
+    "nombre": "nísperos",
+    "unidad": "kg",
+    "precio": "5,00"
+  },
+  {
+    "nombre": "orejones de albaricoque",
+    "unidad": "kg",
+    "precio": "1,99"
+  },
+  {
+    "nombre": "orejones de tomate",
+    "unidad": "kg",
+    "precio": "18,00"
+  },
+  {
+    "nombre": "orégano",
+    "unidad": "kg",
+    "precio": "6,09"
+  },
+  {
+    "nombre": "orégano",
+    "unidad": "manojo",
+    "precio": "1,00"
+  },
+  {
+    "nombre": "ossobuco",
+    "unidad": "kg",
+    "precio": "5,50"
+  },
+  {
+    "nombre": "ossobuco congelado.",
+    "unidad": "kg",
+    "precio": "7,00"
+  },
+  {
+    "nombre": "ostras frescas",
+    "unidad": "unidad",
+    "precio": "2,00"
+  },
+  {
+    "nombre": "paleta cocida fiambre",
+    "unidad": "kg",
+    "precio": "2,35"
+  },
+  {
+    "nombre": "paleta de cerdo",
+    "unidad": "kg",
+    "precio": "3,27"
+  },
+  {
+    "nombre": "paleta ibérica. bellota sin\\ hueso",
+    "unidad": "kg",
+    "precio": "40,54"
+  },
+  {
+    "nombre": "palitos de cangrejo",
+    "unidad": "kg",
+    "precio": "2,15"
+  },
+  {
+    "nombre": "palmitos",
+    "unidad": "kg",
+    "precio": "2,64"
+  },
+  {
+    "nombre": "palomita congelado.",
+    "unidad": "kg",
+    "precio": "5,50"
+  },
+  {
+    "nombre": "pampano congelado",
+    "unidad": "kg",
+    "precio": "8,95"
+  },
+  {
+    "nombre": "pampano fresco",
+    "unidad": "kg",
+    "precio": "12,50"
+  },
+  {
+    "nombre": "pan artesano",
+    "unidad": "unidad",
+    "precio": "0,55"
+  },
+  {
+    "nombre": "pan baguette",
+    "unidad": "unidad",
+    "precio": "0,57"
+  },
+  {
+    "nombre": "pan barra",
+    "unidad": "unidad",
+    "precio": "0,57"
+  },
+  {
+    "nombre": "pan ciabatta",
+    "unidad": "unidad",
+    "precio": "0,13"
+  },
+  {
+    "nombre": "pan congelado",
+    "unidad": "unidad",
+    "precio": "0,05"
+  },
+  {
+    "nombre": "pan grissini",
+    "unidad": "paquete",
+    "precio": "0,68"
+  },
+  {
+    "nombre": "pan hamburguesa grande",
+    "unidad": "unidad",
+    "precio": "0,22"
+  },
+  {
+    "nombre": "pan hamburguesa pequeno",
+    "unidad": "unidad",
+    "precio": "0,11"
+  },
+  {
+    "nombre": "pan mini congelado",
+    "unidad": "unidad",
+    "precio": "0,16"
+  },
+  {
+    "nombre": "pan mini tostada",
+    "unidad": "bolsa",
+    "precio": "1,36"
+  },
+  {
+    "nombre": "pan molde americano",
+    "unidad": "unidad",
+    "precio": "1,70"
+  },
+  {
+    "nombre": "pan molde integral",
+    "unidad": "paquete",
+    "precio": "1,40"
+  },
+  {
+    "nombre": "pan molde integral c-c",
+    "unidad": "paquete",
+    "precio": "0,87"
+  },
+  {
+    "nombre": "pan molde sin corteza",
+    "unidad": "paquete",
+    "precio": "2,50"
+  },
+  {
+    "nombre": "pan molde super",
+    "unidad": "paquete",
+    "precio": "2,20"
+  },
+  {
+    "nombre": "pan negro",
+    "unidad": "kg",
+    "precio": "5,00"
+  },
+  {
+    "nombre": "pan perro caliente",
+    "unidad": "unidad",
+    "precio": "0,18"
+  },
+  {
+    "nombre": "pan pita",
+    "unidad": "kg",
+    "precio": "4,55"
+  },
+  {
+    "nombre": "pan pulga",
+    "unidad": "unidad",
+    "precio": "0,04"
+  },
+  {
+    "nombre": "pan rallado",
+    "unidad": "kg",
+    "precio": "0,45"
+  },
+  {
+    "nombre": "pan tostado integral",
+    "unidad": "paquete",
+    "precio": "1,36"
+  },
+  {
+    "nombre": "panceta fresc.",
+    "unidad": "kg",
+    "precio": "10,50"
+  },
+  {
+    "nombre": "panceta salada",
+    "unidad": "kg",
+    "precio": "2,80"
+  },
+  {
+    "nombre": "panes de especias",
+    "unidad": "kg",
+    "precio": "5,50"
+  },
+  {
+    "nombre": "papa antiguas",
+    "unidad": "kg",
+    "precio": "0,55"
+  },
+  {
+    "nombre": "papa arrugar",
+    "unidad": "kg",
+    "precio": "0,82"
+  },
+  {
+    "nombre": "papa dado congelado.",
+    "unidad": "kg",
+    "precio": "1,17"
+  },
+  {
+    "nombre": "papa duquesa congelado.",
+    "unidad": "kg",
+    "precio": "1,56"
+  },
+  {
+    "nombre": "papa negra",
+    "unidad": "kg",
+    "precio": "5,89"
+  },
+  {
+    "nombre": "papa parisienne congelado.",
+    "unidad": "kg",
+    "precio": "0,80"
+  },
+  {
+    "nombre": "papa prefritas congelado.",
+    "unidad": "kg",
+    "precio": "0,79"
+  },
+  {
+    "nombre": "papada de cerdo",
+    "unidad": "kg",
+    "precio": "2,25"
+  },
+  {
+    "nombre": "papaya",
+    "unidad": "kg",
+    "precio": "3,10"
+  },
+  {
+    "nombre": "papaya congelado.",
+    "unidad": "kg",
+    "precio": "2,40"
+  },
+  {
+    "nombre": "papel de arroz",
+    "unidad": "paquete",
+    "precio": "6,75"
+  },
+  {
+    "nombre": "papel siliconado",
+    "unidad": "paquete",
+    "precio": "27,00"
+  },
+  {
+    "nombre": "parchita",
+    "unidad": "kg",
+    "precio": "6,00"
+  },
+  {
+    "nombre": "pareja novios",
+    "unidad": "unidad",
+    "precio": "8,93"
+  },
+  {
+    "nombre": "pargo fresco",
+    "unidad": "kg",
+    "precio": "12,90"
+  },
+  {
+    "nombre": "pasas sultanas",
+    "unidad": "kg",
+    "precio": "2,66"
+  },
+  {
+    "nombre": "pasta amarena",
+    "unidad": "kg",
+    "precio": "15,68"
+  },
+  {
+    "nombre": "pasta aroma cheescake (t)",
+    "unidad": "kg",
+    "precio": "14,12"
+  },
+  {
+    "nombre": "pasta aroma vainilla",
+    "unidad": "kg",
+    "precio": "21,92"
+  },
+  {
+    "nombre": "pasta avellana aroma",
+    "unidad": "kg",
+    "precio": "14,96"
+  },
+  {
+    "nombre": "pasta brick",
+    "unidad": "unidad",
+    "precio": "0,14"
+  },
+  {
+    "nombre": "pasta cacahuete",
+    "unidad": "kg",
+    "precio": "16,64"
+  },
+  {
+    "nombre": "pasta cereza aroma",
+    "unidad": "kg",
+    "precio": "18,20"
+  },
+  {
+    "nombre": "pasta champan aroma",
+    "unidad": "kg",
+    "precio": "19,75"
+  },
+  {
+    "nombre": "pasta crema mandarina",
+    "unidad": "kg",
+    "precio": "11,96"
+  },
+  {
+    "nombre": "pasta crema mojito",
+    "unidad": "kg",
+    "precio": "11,25"
+  },
+  {
+    "nombre": "pasta de aceitunas",
+    "unidad": "kg",
+    "precio": "13,85"
+  },
+  {
+    "nombre": "pasta empanadillas",
+    "unidad": "kg",
+    "precio": "6,76"
+  },
+  {
+    "nombre": "pasta filo",
+    "unidad": "kg",
+    "precio": "13,37"
+  },
+  {
+    "nombre": "pasta frambuesa aroma",
+    "unidad": "kg",
+    "precio": "16,85"
+  },
+  {
+    "nombre": "pasta fresa aroma",
+    "unidad": "kg",
+    "precio": "18,26"
+  },
+  {
+    "nombre": "pasta fresca",
+    "unidad": "kg",
+    "precio": "6,00"
+  },
+  {
+    "nombre": "pasta galletas cookies",
+    "unidad": "kg",
+    "precio": "11,77"
+  },
+  {
+    "nombre": "pasta giandua",
+    "unidad": "kg",
+    "precio": "20,45"
+  },
+  {
+    "nombre": "pasta kataifi",
+    "unidad": "kg",
+    "precio": "12,11"
+  },
+  {
+    "nombre": "pasta limón aromas",
+    "unidad": "kg",
+    "precio": "12,03"
+  },
+  {
+    "nombre": "pasta mango aroma",
+    "unidad": "kg",
+    "precio": "24,70"
+  },
+  {
+    "nombre": "pasta maracuya aroma",
+    "unidad": "kg",
+    "precio": "29,10"
+  },
+  {
+    "nombre": "pasta menta aroma",
+    "unidad": "kg",
+    "precio": "17,00"
+  },
+  {
+    "nombre": "pasta moka aroma",
+    "unidad": "kg",
+    "precio": "13,30"
+  },
+  {
+    "nombre": "pasta naranaja aroma",
+    "unidad": "kg",
+    "precio": "2,33"
+  },
+  {
+    "nombre": "pasta pina aroma",
+    "unidad": "kg",
+    "precio": "13,13"
+  },
+  {
+    "nombre": "pasta plátano aroma",
+    "unidad": "kg",
+    "precio": "15,07"
+  },
+  {
+    "nombre": "pasta rollo de primavera",
+    "unidad": "paquete",
+    "precio": "3,50"
+  },
+  {
+    "nombre": "pasta selva negra aroma",
+    "unidad": "kg",
+    "precio": "24,01"
+  },
+  {
+    "nombre": "pasta wanton",
+    "unidad": "paquete",
+    "precio": "1,75"
+  },
+  {
+    "nombre": "pastas te",
+    "unidad": "unidad",
+    "precio": "0,09"
+  },
+  {
+    "nombre": "pasteleria variada",
+    "unidad": "unidad",
+    "precio": "1,16"
+  },
+  {
+    "nombre": "pastillaje-azúcar moldeable",
+    "unidad": "kg",
+    "precio": "8,20"
+  },
+  {
+    "nombre": "pastillas regaliz",
+    "unidad": "caja",
+    "precio": "4,25"
+  },
+  {
+    "nombre": "pata de cerdo asada",
+    "unidad": "kg",
+    "precio": "1,00"
+  },
+  {
+    "nombre": "pata de cerdo congelado.",
+    "unidad": "kg",
+    "precio": "2,20"
+  },
+  {
+    "nombre": "pata de cerdo fresc.",
+    "unidad": "kg",
+    "precio": "6,38"
+  },
+  {
+    "nombre": "pato",
+    "unidad": "unidad",
+    "precio": "5,95"
+  },
+  {
+    "nombre": "pato congelado.",
+    "unidad": "kg",
+    "precio": "2,75"
+  },
+  {
+    "nombre": "paté restaurante",
+    "unidad": "kg",
+    "precio": "4,60"
+  },
+  {
+    "nombre": "pavo entero congelado.",
+    "unidad": "kg",
+    "precio": "3,10"
+  },
+  {
+    "nombre": "pavo fresc.",
+    "unidad": "kg",
+    "precio": "3,95"
+  },
+  {
+    "nombre": "pavo jamón",
+    "unidad": "kg",
+    "precio": "3,31"
+  },
+  {
+    "nombre": "pavo muslo congelado.",
+    "unidad": "kg",
+    "precio": "3,10"
+  },
+  {
+    "nombre": "pavo pechuga congelado.",
+    "unidad": "kg",
+    "precio": "5,75"
+  },
+  {
+    "nombre": "pavo pechuga embutido",
+    "unidad": "kg",
+    "precio": "3,85"
+  },
+  {
+    "nombre": "pavo pechuga fresc.",
+    "unidad": "kg",
+    "precio": "5,95"
+  },
+  {
+    "nombre": "pavo redondo",
+    "unidad": "kg",
+    "precio": "3,40"
+  },
+  {
+    "nombre": "peceto-filo congelado.",
+    "unidad": "kg",
+    "precio": "5,60"
+  },
+  {
+    "nombre": "peceto-filo fresc.",
+    "unidad": "kg",
+    "precio": "5,95"
+  },
+  {
+    "nombre": "pectina",
+    "unidad": "kg",
+    "precio": "15,62"
+  },
+  {
+    "nombre": "pepinillos",
+    "unidad": "kg",
+    "precio": "1,18"
+  },
+  {
+    "nombre": "pepino",
+    "unidad": "kg",
+    "precio": "1,28"
+  },
+  {
+    "nombre": "pera",
+    "unidad": "kg",
+    "precio": "1,80"
+  },
+  {
+    "nombre": "pera almibar",
+    "unidad": "kg",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "perca filete congelado",
+    "unidad": "kg",
+    "precio": "5,25"
+  },
+  {
+    "nombre": "perdices congelado. pieza",
+    "unidad": "unidad",
+    "precio": "5,15"
+  },
+  {
+    "nombre": "perdiz",
+    "unidad": "unidad",
+    "precio": "6,50"
+  },
+  {
+    "nombre": "perejil",
+    "unidad": "unidad",
+    "precio": "0,28"
+  },
+  {
+    "nombre": "perejil deshidratado",
+    "unidad": "kg",
+    "precio": "2,06"
+  },
+  {
+    "nombre": "perlas oro (pasteleria)",
+    "unidad": "paquete",
+    "precio": "26,87"
+  },
+  {
+    "nombre": "perlas plata (pasteleria)",
+    "unidad": "kg",
+    "precio": "27,90"
+  },
+  {
+    "nombre": "pescadilla",
+    "unidad": "kg",
+    "precio": "7,25"
+  },
+  {
+    "nombre": "pescado azul lomo congelado",
+    "unidad": "kg",
+    "precio": "4,00"
+  },
+  {
+    "nombre": "petit four blanco",
+    "unidad": "unidad",
+    "precio": "0,45"
+  },
+  {
+    "nombre": "petit four choco",
+    "unidad": "unidad",
+    "precio": "0,45"
+  },
+  {
+    "nombre": "peto congelado",
+    "unidad": "kg",
+    "precio": "4,80"
+  },
+  {
+    "nombre": "pez espada lomo congelado",
+    "unidad": "kg",
+    "precio": "4,68"
+  },
+  {
+    "nombre": "picantones congelado.",
+    "unidad": "unidad",
+    "precio": "3,50"
+  },
+  {
+    "nombre": "pichón",
+    "unidad": "kg",
+    "precio": "18,93"
+  },
+  {
+    "nombre": "pierna añojo fresc.",
+    "unidad": "kg",
+    "precio": "5,40"
+  },
+  {
+    "nombre": "pierna cordero lechal des.",
+    "unidad": "kg",
+    "precio": "28,00"
+  },
+  {
+    "nombre": "pierna-rueda ternera congelado.",
+    "unidad": "kg",
+    "precio": "5,20"
+  },
+  {
+    "nombre": "pierna/paleta cordero congelado.",
+    "unidad": "kg",
+    "precio": "10,90"
+  },
+  {
+    "nombre": "pierna/paleta de cordero",
+    "unidad": "kg",
+    "precio": "6,30"
+  },
+  {
+    "nombre": "pimentón de la vera",
+    "unidad": "kg",
+    "precio": "9,26"
+  },
+  {
+    "nombre": "pimentón dulce",
+    "unidad": "kg",
+    "precio": "4,34"
+  },
+  {
+    "nombre": "pimentón picante",
+    "unidad": "kg",
+    "precio": "4,34"
+  },
+  {
+    "nombre": "pimienta blanca en grano",
+    "unidad": "kg",
+    "precio": "20,39"
+  },
+  {
+    "nombre": "pimienta blanca molida",
+    "unidad": "kg",
+    "precio": "19,68"
+  },
+  {
+    "nombre": "pimienta de jamaica",
+    "unidad": "kg",
+    "precio": "19,48"
+  },
+  {
+    "nombre": "pimienta negra en grano",
+    "unidad": "kg",
+    "precio": "10,76"
+  },
+  {
+    "nombre": "pimienta negra mlida",
+    "unidad": "kg",
+    "precio": "13,00"
+  },
+  {
+    "nombre": "pimienta palmera",
+    "unidad": "kg",
+    "precio": "104,66"
+  },
+  {
+    "nombre": "pimienta rosa",
+    "unidad": "kg",
+    "precio": "20,00"
+  },
+  {
+    "nombre": "pimienta sobre",
+    "unidad": "unidad",
+    "precio": "0,01"
+  },
+  {
+    "nombre": "pimienta verde",
+    "unidad": "kg",
+    "precio": "10,32"
+  },
+  {
+    "nombre": "pimienta verde en lata",
+    "unidad": "kg",
+    "precio": "3,40"
+  },
+  {
+    "nombre": "pimiento amarillo",
+    "unidad": "kg",
+    "precio": "2,78"
+  },
+  {
+    "nombre": "pimiento chorizero",
+    "unidad": "kg",
+    "precio": "8,84"
+  },
+  {
+    "nombre": "pimiento congelado.",
+    "unidad": "kg",
+    "precio": "1,51"
+  },
+  {
+    "nombre": "pimiento de padrón",
+    "unidad": "kg",
+    "precio": "2,90"
+  },
+  {
+    "nombre": "pimiento italiano",
+    "unidad": "kg",
+    "precio": "2,15"
+  },
+  {
+    "nombre": "pimiento morrón",
+    "unidad": "kg",
+    "precio": "3,63"
+  },
+  {
+    "nombre": "pimiento piquillo",
+    "unidad": "kg",
+    "precio": "3,63"
+  },
+  {
+    "nombre": "pimiento rojo",
+    "unidad": "kg",
+    "precio": "2,40"
+  },
+  {
+    "nombre": "pimiento verde",
+    "unidad": "kg",
+    "precio": "1,60"
+  },
+  {
+    "nombre": "pina congelado.",
+    "unidad": "kg",
+    "precio": "2,08"
+  },
+  {
+    "nombre": "pina en almibar",
+    "unidad": "kg",
+    "precio": "1,09"
+  },
+  {
+    "nombre": "pina millo",
+    "unidad": "unidad",
+    "precio": "1,15"
+  },
+  {
+    "nombre": "pina tropical",
+    "unidad": "kg",
+    "precio": "3,85"
+  },
+  {
+    "nombre": "pinones",
+    "unidad": "kg",
+    "precio": "70,00"
+  },
+  {
+    "nombre": "piparra en vinagre",
+    "unidad": "kg",
+    "precio": "17,00"
+  },
+  {
+    "nombre": "pipas de calabaza",
+    "unidad": "kg",
+    "precio": "12,66"
+  },
+  {
+    "nombre": "pipas girasol",
+    "unidad": "kg",
+    "precio": "2,30"
+  },
+  {
+    "nombre": "pirámide de chocolate",
+    "unidad": "unidad",
+    "precio": "0,94"
+  },
+  {
+    "nombre": "pistachos pelados",
+    "unidad": "kg",
+    "precio": "15,96"
+  },
+  {
+    "nombre": "pistola de res",
+    "unidad": "kg",
+    "precio": "5,25"
+  },
+  {
+    "nombre": "platanos",
+    "unidad": "kg",
+    "precio": "0,52"
+  },
+  {
+    "nombre": "plátano seco",
+    "unidad": "kg",
+    "precio": "0,65"
+  },
+  {
+    "nombre": "pochas congelado.",
+    "unidad": "kg",
+    "precio": "7,48"
+  },
+  {
+    "nombre": "pollo alas congelado.",
+    "unidad": "kg",
+    "precio": "2,10"
+  },
+  {
+    "nombre": "pollo alas fresc.",
+    "unidad": "kg",
+    "precio": "6,68"
+  },
+  {
+    "nombre": "pollo de corral",
+    "unidad": "kg",
+    "precio": "3,50"
+  },
+  {
+    "nombre": "pollo entero congelado.",
+    "unidad": "kg",
+    "precio": "1,55"
+  },
+  {
+    "nombre": "pollo fresc.",
+    "unidad": "kg",
+    "precio": "1,01"
+  },
+  {
+    "nombre": "pollo jamoncito",
+    "unidad": "kg",
+    "precio": "1,60"
+  },
+  {
+    "nombre": "pollo muslo congelado.",
+    "unidad": "kg",
+    "precio": "1,35"
+  },
+  {
+    "nombre": "pollo muslo fresc.",
+    "unidad": "kg",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "pollo muslo sin\\ hueso sin\\ piel",
+    "unidad": "kg",
+    "precio": "2,85"
+  },
+  {
+    "nombre": "pollo nuggets congelado.",
+    "unidad": "kg",
+    "precio": "3,60"
+  },
+  {
+    "nombre": "pollo pechuga congelado.",
+    "unidad": "kg",
+    "precio": "2,40"
+  },
+  {
+    "nombre": "pollo pechuga empanada",
+    "unidad": "kg",
+    "precio": "3,65"
+  },
+  {
+    "nombre": "pollo pechuga fresc.",
+    "unidad": "kg",
+    "precio": "2,70"
+  },
+  {
+    "nombre": "pollo picantón",
+    "unidad": "kg",
+    "precio": "2,99"
+  },
+  {
+    "nombre": "polvo de regaliz",
+    "unidad": "kg",
+    "precio": "28,50"
+  },
+  {
+    "nombre": "polvorones",
+    "unidad": "kg",
+    "precio": "5,52"
+  },
+  {
+    "nombre": "pomelo",
+    "unidad": "kg",
+    "precio": "2,35"
+  },
+  {
+    "nombre": "postre individual",
+    "unidad": "kg",
+    "precio": "14,47"
+  },
+  {
+    "nombre": "pota congelado",
+    "unidad": "kg",
+    "precio": "4,80"
+  },
+  {
+    "nombre": "praguayos",
+    "unidad": "kg",
+    "precio": "3,90"
+  },
+  {
+    "nombre": "praliné almendra",
+    "unidad": "kg",
+    "precio": "6,83"
+  },
+  {
+    "nombre": "praliné avellana",
+    "unidad": "kg",
+    "precio": "13,66"
+  },
+  {
+    "nombre": "presa cerdo congelado.",
+    "unidad": "kg",
+    "precio": "15,25"
+  },
+  {
+    "nombre": "presa de cerdo fresc.",
+    "unidad": "kg",
+    "precio": "14,50"
+  },
+  {
+    "nombre": "presa de ternera fresc.",
+    "unidad": "kg",
+    "precio": "11,00"
+  },
+  {
+    "nombre": "profiteroles",
+    "unidad": "unidad",
+    "precio": "0,45"
+  },
+  {
+    "nombre": "puerros",
+    "unidad": "kg",
+    "precio": "1,69"
+  },
+  {
+    "nombre": "pularda entera congelado.",
+    "unidad": "kg",
+    "precio": "5,45"
+  },
+  {
+    "nombre": "pulpa albaricoque congelado.",
+    "unidad": "kg",
+    "precio": "5,78"
+  },
+  {
+    "nombre": "pulpa coco congelado.",
+    "unidad": "kg",
+    "precio": "7,74"
+  },
+  {
+    "nombre": "pulpa de pimiento chorizero",
+    "unidad": "kg",
+    "precio": "8,84"
+  },
+  {
+    "nombre": "pulpa fresa congelado.",
+    "unidad": "kg",
+    "precio": "5,58"
+  },
+  {
+    "nombre": "pulpa frutas del bosque congelado.",
+    "unidad": "kg",
+    "precio": "5,28"
+  },
+  {
+    "nombre": "pulpa grosella congelado.",
+    "unidad": "kg",
+    "precio": "5,90"
+  },
+  {
+    "nombre": "pulpa guayaba congelado.",
+    "unidad": "kg",
+    "precio": "6,14"
+  },
+  {
+    "nombre": "pulpa higo congelado.",
+    "unidad": "kg",
+    "precio": "6,94"
+  },
+  {
+    "nombre": "pulpa lima congelado.",
+    "unidad": "kg",
+    "precio": "5,75"
+  },
+  {
+    "nombre": "pulpa mandarina congelado.",
+    "unidad": "kg",
+    "precio": "8,87"
+  },
+  {
+    "nombre": "pulpa mango congelado.",
+    "unidad": "kg",
+    "precio": "6,38"
+  },
+  {
+    "nombre": "pulpa manzana congelado.",
+    "unidad": "kg",
+    "precio": "4,03"
+  },
+  {
+    "nombre": "pulpa maracuya congelado.",
+    "unidad": "kg",
+    "precio": "8,10"
+  },
+  {
+    "nombre": "pulpa naranja congelado.",
+    "unidad": "kg",
+    "precio": "6,49"
+  },
+  {
+    "nombre": "pulpa papaya congelado.",
+    "unidad": "kg",
+    "precio": "6,29"
+  },
+  {
+    "nombre": "pulpa pera congelado.",
+    "unidad": "kg",
+    "precio": "4,02"
+  },
+  {
+    "nombre": "pulpa pina congelado.",
+    "unidad": "kg",
+    "precio": "6,11"
+  },
+  {
+    "nombre": "pulpa pomelo congelado.",
+    "unidad": "kg",
+    "precio": "8,21"
+  },
+  {
+    "nombre": "pulpo congelado",
+    "unidad": "unidad",
+    "precio": ""
+  },
+  {
+    "nombre": "pulpo congelado",
+    "unidad": "kg",
+    "precio": "6,20"
+  },
+  {
+    "nombre": "pulpo fresco",
+    "unidad": "kg",
+    "precio": "7,94"
+  },
+  {
+    "nombre": "puré de guindas",
+    "unidad": "kg",
+    "precio": "6,13"
+  },
+  {
+    "nombre": "puré de papas",
+    "unidad": "kg",
+    "precio": "1,56"
+  },
+  {
+    "nombre": "quesadilla",
+    "unidad": "unidad",
+    "precio": "1,83"
+  },
+  {
+    "nombre": "queso ahumado",
+    "unidad": "kg",
+    "precio": "0,51"
+  },
+  {
+    "nombre": "queso ahumado barra",
+    "unidad": "kg",
+    "precio": "5,80"
+  },
+  {
+    "nombre": "queso almendra",
+    "unidad": "kg",
+    "precio": "13,74"
+  },
+  {
+    "nombre": "queso artesano",
+    "unidad": "kg",
+    "precio": "4,55"
+  },
+  {
+    "nombre": "queso azul",
+    "unidad": "kg",
+    "precio": "5,78"
+  },
+  {
+    "nombre": "queso barra",
+    "unidad": "kg",
+    "precio": "2,55"
+  },
+  {
+    "nombre": "queso brie",
+    "unidad": "kg",
+    "precio": "0,40"
+  },
+  {
+    "nombre": "queso cabra fresco",
+    "unidad": "kg",
+    "precio": "7,30"
+  },
+  {
+    "nombre": "queso cabra semi curado",
+    "unidad": "kg",
+    "precio": "7,60"
+  },
+  {
+    "nombre": "queso cabrales",
+    "unidad": "kg",
+    "precio": "17,48"
+  },
+  {
+    "nombre": "queso camembert",
+    "unidad": "kg",
+    "precio": "0,48"
+  },
+  {
+    "nombre": "queso cheddar",
+    "unidad": "kg",
+    "precio": "6,95"
+  },
+  {
+    "nombre": "queso crema",
+    "unidad": "kg",
+    "precio": "5,22"
+  },
+  {
+    "nombre": "queso curado arico",
+    "unidad": "kg",
+    "precio": "10,52"
+  },
+  {
+    "nombre": "queso de flor d.o.",
+    "unidad": "kg",
+    "precio": "14,99"
+  },
+  {
+    "nombre": "queso de oveja",
+    "unidad": "kg",
+    "precio": "0,64"
+  },
+  {
+    "nombre": "queso emmental",
+    "unidad": "kg",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "queso feta",
+    "unidad": "kg",
+    "precio": "5,76"
+  },
+  {
+    "nombre": "queso fresco",
+    "unidad": "kg",
+    "precio": "5,75"
+  },
+  {
+    "nombre": "queso fresco ahumado",
+    "unidad": "kg",
+    "precio": "5,80"
+  },
+  {
+    "nombre": "queso gofio",
+    "unidad": "kg",
+    "precio": "6,75"
+  },
+  {
+    "nombre": "queso gorgonzola",
+    "unidad": "kg",
+    "precio": "6,65"
+  },
+  {
+    "nombre": "queso gouda",
+    "unidad": "kg",
+    "precio": "3,69"
+  },
+  {
+    "nombre": "queso gruyère",
+    "unidad": "kg",
+    "precio": "12,16"
+  },
+  {
+    "nombre": "queso herreno tierno",
+    "unidad": "kg",
+    "precio": "8,70"
+  },
+  {
+    "nombre": "queso idiazábal",
+    "unidad": "kg",
+    "precio": "12,76"
+  },
+  {
+    "nombre": "queso majorero semi pimentón",
+    "unidad": "kg",
+    "precio": "10,61"
+  },
+  {
+    "nombre": "queso manchego",
+    "unidad": "kg",
+    "precio": "5,75"
+  },
+  {
+    "nombre": "queso mascarpone",
+    "unidad": "kg",
+    "precio": "7,40"
+  },
+  {
+    "nombre": "queso mozarella",
+    "unidad": "kg",
+    "precio": "5,66"
+  },
+  {
+    "nombre": "queso parmesano",
+    "unidad": "kg",
+    "precio": "12,95"
+  },
+  {
+    "nombre": "queso picota",
+    "unidad": "kg",
+    "precio": "6,88"
+  },
+  {
+    "nombre": "queso pimentón",
+    "unidad": "kg",
+    "precio": "6,75"
+  },
+  {
+    "nombre": "queso quark",
+    "unidad": "kg",
+    "precio": "2,70"
+  },
+  {
+    "nombre": "queso rallado",
+    "unidad": "kg",
+    "precio": "3,90"
+  },
+  {
+    "nombre": "queso roquefort",
+    "unidad": "kg",
+    "precio": "14,23"
+  },
+  {
+    "nombre": "queso rulo cabra",
+    "unidad": "kg",
+    "precio": "9,26"
+  },
+  {
+    "nombre": "queso torta del casar",
+    "unidad": "kg",
+    "precio": "15,10"
+  },
+  {
+    "nombre": "rabadilla de ternera",
+    "unidad": "kg",
+    "precio": "8,00"
+  },
+  {
+    "nombre": "rabanito",
+    "unidad": "unidad",
+    "precio": "0,75"
+  },
+  {
+    "nombre": "rabo de buey",
+    "unidad": "kg",
+    "precio": "5,95"
+  },
+  {
+    "nombre": "rabo de vacuno",
+    "unidad": "kg",
+    "precio": "6,75"
+  },
+  {
+    "nombre": "rape cola congelado",
+    "unidad": "kg",
+    "precio": "4,20"
+  },
+  {
+    "nombre": "rape fresco",
+    "unidad": "kg",
+    "precio": "23,90"
+  },
+  {
+    "nombre": "ravioli carne",
+    "unidad": "kg",
+    "precio": "5,59"
+  },
+  {
+    "nombre": "rebozador papadum",
+    "unidad": "kg",
+    "precio": "4,30"
+  },
+  {
+    "nombre": "regaliz en rama",
+    "unidad": "kg",
+    "precio": "10,31"
+  },
+  {
+    "nombre": "reina luisa",
+    "unidad": "unidad",
+    "precio": "0,75"
+  },
+  {
+    "nombre": "relleno de txangurro",
+    "unidad": "kg",
+    "precio": "68,75"
+  },
+  {
+    "nombre": "remolacha",
+    "unidad": "kg",
+    "precio": "1,40"
+  },
+  {
+    "nombre": "remolacha",
+    "unidad": "kg",
+    "precio": "0,52"
+  },
+  {
+    "nombre": "reposteria",
+    "unidad": "unidad",
+    "precio": "12,69"
+  },
+  {
+    "nombre": "reposteria sin gluten",
+    "unidad": "kg",
+    "precio": "9,45"
+  },
+  {
+    "nombre": "requesón",
+    "unidad": "kg",
+    "precio": "4,40"
+  },
+  {
+    "nombre": "rinones de cordero",
+    "unidad": "kg",
+    "precio": "3,90"
+  },
+  {
+    "nombre": "rinones-corazon de cerdo",
+    "unidad": "kg",
+    "precio": "3,00"
+  },
+  {
+    "nombre": "rodaballo fresco",
+    "unidad": "kg",
+    "precio": "9,95"
+  },
+  {
+    "nombre": "romero",
+    "unidad": "manojo",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "ruibarbo",
+    "unidad": "kg",
+    "precio": "5,42"
+  },
+  {
+    "nombre": "rábano",
+    "unidad": "kg",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "rúcula",
+    "unidad": "unidad",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "sacarina",
+    "unidad": "unidad",
+    "precio": ""
+  },
+  {
+    "nombre": "sake",
+    "unidad": "l",
+    "precio": "10,45"
+  },
+  {
+    "nombre": "sal ahumada",
+    "unidad": "kg",
+    "precio": "40,81"
+  },
+  {
+    "nombre": "sal en escamas",
+    "unidad": "kg",
+    "precio": "64,16"
+  },
+  {
+    "nombre": "sal especial",
+    "unidad": "kg",
+    "precio": "21,17"
+  },
+  {
+    "nombre": "sal fina",
+    "unidad": "kg",
+    "precio": "0,25"
+  },
+  {
+    "nombre": "sal gruesa",
+    "unidad": "kg",
+    "precio": "0,24"
+  },
+  {
+    "nombre": "sal maldon",
+    "unidad": "kg",
+    "precio": "18,28"
+  },
+  {
+    "nombre": "sal sobre",
+    "unidad": "unidad",
+    "precio": "0,00"
+  },
+  {
+    "nombre": "salami",
+    "unidad": "kg",
+    "precio": "4,09"
+  },
+  {
+    "nombre": "salchicha alemana",
+    "unidad": "kg",
+    "precio": "6,54"
+  },
+  {
+    "nombre": "salchicha blanca",
+    "unidad": "kg",
+    "precio": "2,20"
+  },
+  {
+    "nombre": "salchicha bratwurst",
+    "unidad": "kg",
+    "precio": "6,54"
+  },
+  {
+    "nombre": "salchicha cóctel",
+    "unidad": "kg",
+    "precio": "4,67"
+  },
+  {
+    "nombre": "salchicha frankfurt.",
+    "unidad": "kg",
+    "precio": "2,60"
+  },
+  {
+    "nombre": "salchichas parrilleras",
+    "unidad": "kg",
+    "precio": "3,75"
+  },
+  {
+    "nombre": "salchichón",
+    "unidad": "kg",
+    "precio": "3,83"
+  },
+  {
+    "nombre": "salchichón iberico bellota",
+    "unidad": "kg",
+    "precio": "10,75"
+  },
+  {
+    "nombre": "salmonete",
+    "unidad": "kg",
+    "precio": "3,90"
+  },
+  {
+    "nombre": "salmonete fresco",
+    "unidad": "kg",
+    "precio": "23,60"
+  },
+  {
+    "nombre": "salmón ahumado",
+    "unidad": "kg",
+    "precio": "14,50"
+  },
+  {
+    "nombre": "salmón congelado",
+    "unidad": "kg",
+    "precio": "4,00"
+  },
+  {
+    "nombre": "salmón fresco",
+    "unidad": "kg",
+    "precio": "10,95"
+  },
+  {
+    "nombre": "salsa agridulce",
+    "unidad": "kg",
+    "precio": "7,50"
+  },
+  {
+    "nombre": "salsa de soja",
+    "unidad": "kg",
+    "precio": "6,61"
+  },
+  {
+    "nombre": "salsa perrins",
+    "unidad": "unidad",
+    "precio": "1,78"
+  },
+  {
+    "nombre": "salsa tabasco",
+    "unidad": "lata",
+    "precio": "1,81"
+  },
+  {
+    "nombre": "salsa tomate ketchup",
+    "unidad": "kg",
+    "precio": "1,04"
+  },
+  {
+    "nombre": "salvado",
+    "unidad": "kg",
+    "precio": "0,61"
+  },
+  {
+    "nombre": "salvia",
+    "unidad": "manojo",
+    "precio": "0,85"
+  },
+  {
+    "nombre": "sama congelado",
+    "unidad": "kg",
+    "precio": "4,00"
+  },
+  {
+    "nombre": "sama fresco",
+    "unidad": "kg",
+    "precio": "7,41"
+  },
+  {
+    "nombre": "sandía",
+    "unidad": "kg",
+    "precio": "0,90"
+  },
+  {
+    "nombre": "sardina congelado",
+    "unidad": "kg",
+    "precio": "1,80"
+  },
+  {
+    "nombre": "sardina fresco",
+    "unidad": "kg",
+    "precio": "2,95"
+  },
+  {
+    "nombre": "sardinas en conserva",
+    "unidad": "kg",
+    "precio": "15,63"
+  },
+  {
+    "nombre": "sargo congelado.",
+    "unidad": "kg",
+    "precio": "3,95"
+  },
+  {
+    "nombre": "sargo fresco",
+    "unidad": "kg",
+    "precio": "7,53"
+  },
+  {
+    "nombre": "secreto de cerdo",
+    "unidad": "kg",
+    "precio": "15,73"
+  },
+  {
+    "nombre": "sepia fresco",
+    "unidad": "kg",
+    "precio": "11,10"
+  },
+  {
+    "nombre": "sesos de cordero",
+    "unidad": "kg",
+    "precio": "7,98"
+  },
+  {
+    "nombre": "sesos de res",
+    "unidad": "kg",
+    "precio": "2,00"
+  },
+  {
+    "nombre": "set aceite vinagre y sal",
+    "unidad": "unidad",
+    "precio": "0,16"
+  },
+  {
+    "nombre": "seta granel",
+    "unidad": "kg",
+    "precio": "6,55"
+  },
+  {
+    "nombre": "sirope sabores",
+    "unidad": "unidad",
+    "precio": "2,81"
+  },
+  {
+    "nombre": "soja germinada",
+    "unidad": "kg",
+    "precio": "6,25"
+  },
+  {
+    "nombre": "solomillo 3/4 congelado.",
+    "unidad": "kg",
+    "precio": "13,00"
+  },
+  {
+    "nombre": "solomillo 3/4 refrig.",
+    "unidad": "kg",
+    "precio": "18,75"
+  },
+  {
+    "nombre": "solomillo 4/5 congelado.",
+    "unidad": "kg",
+    "precio": "15,50"
+  },
+  {
+    "nombre": "solomillo 4/5 refrig.",
+    "unidad": "kg",
+    "precio": "18,50"
+  },
+  {
+    "nombre": "solomillo añojo fresc.",
+    "unidad": "kg",
+    "precio": "15,00"
+  },
+  {
+    "nombre": "solomillo cerdo congelado.",
+    "unidad": "kg",
+    "precio": "6,00"
+  },
+  {
+    "nombre": "solomillo cerdo iberico",
+    "unidad": "kg",
+    "precio": "7,95"
+  },
+  {
+    "nombre": "solomillo ciervo congelado.",
+    "unidad": "kg",
+    "precio": "24,00"
+  },
+  {
+    "nombre": "solomillo jabalí",
+    "unidad": "kg",
+    "precio": "15,50"
+  },
+  {
+    "nombre": "sorbete helado",
+    "unidad": "l",
+    "precio": "0,76"
+  },
+  {
+    "nombre": "sucedaneo caviar negro",
+    "unidad": "kg",
+    "precio": "25,94"
+  },
+  {
+    "nombre": "sucedaneo caviar rojo",
+    "unidad": "kg",
+    "precio": "25,94"
+  },
+  {
+    "nombre": "sucedaneo de anguila",
+    "unidad": "kg",
+    "precio": "5,75"
+  },
+  {
+    "nombre": "sumfill topfill manzana",
+    "unidad": "kg",
+    "precio": "5,26"
+  },
+  {
+    "nombre": "super mixo (chocolate)",
+    "unidad": "kg",
+    "precio": "15,22"
+  },
+  {
+    "nombre": "surtidos",
+    "unidad": "kg",
+    "precio": "19,61"
+  },
+  {
+    "nombre": "sémola de maíz(polenta)",
+    "unidad": "kg",
+    "precio": "6,76"
+  },
+  {
+    "nombre": "sémola de trigo",
+    "unidad": "kg",
+    "precio": "2,36"
+  },
+  {
+    "nombre": "sésamo blanco",
+    "unidad": "kg",
+    "precio": "3,39"
+  },
+  {
+    "nombre": "sésamo negro",
+    "unidad": "kg",
+    "precio": "8,33"
+  },
+  {
+    "nombre": "taco pescado congelado.",
+    "unidad": "kg",
+    "precio": "2,12"
+  },
+  {
+    "nombre": "taco res congelado.",
+    "unidad": "kg",
+    "precio": "5,60"
+  },
+  {
+    "nombre": "tacos de cerdo congelado.",
+    "unidad": "kg",
+    "precio": "3,60"
+  },
+  {
+    "nombre": "tagliatelle fresco",
+    "unidad": "kg",
+    "precio": "7,33"
+  },
+  {
+    "nombre": "tallarines huevo",
+    "unidad": "kg",
+    "precio": "1,17"
+  },
+  {
+    "nombre": "tallarines integrales",
+    "unidad": "kg",
+    "precio": "7,92"
+  },
+  {
+    "nombre": "tapete para fondant",
+    "unidad": "unidad",
+    "precio": "22,90"
+  },
+  {
+    "nombre": "tarta",
+    "unidad": "kg",
+    "precio": "6,00"
+  },
+  {
+    "nombre": "tarta manzana",
+    "unidad": "kg",
+    "precio": "7,56"
+  },
+  {
+    "nombre": "tartaleta dulce 39 mm",
+    "unidad": "unidad",
+    "precio": "0,07"
+  },
+  {
+    "nombre": "tartaleta salada 39mm",
+    "unidad": "unidad",
+    "precio": "0,07"
+  },
+  {
+    "nombre": "tartaleta salada 49mm",
+    "unidad": "unidad",
+    "precio": "0,08"
+  },
+  {
+    "nombre": "tartaleta salada surtida",
+    "unidad": "unidad",
+    "precio": "0,30"
+  },
+  {
+    "nombre": "tempura",
+    "unidad": "kg",
+    "precio": "1,96"
+  },
+  {
+    "nombre": "terrina foie",
+    "unidad": "kg",
+    "precio": "30,85"
+  },
+  {
+    "nombre": "tila sobre",
+    "unidad": "kg",
+    "precio": "0,04"
+  },
+  {
+    "nombre": "tinta de calamar",
+    "unidad": "unidad",
+    "precio": "0,15"
+  },
+  {
+    "nombre": "tocino",
+    "unidad": "kg",
+    "precio": "4,29"
+  },
+  {
+    "nombre": "tocino de cerdo",
+    "unidad": "kg",
+    "precio": "1,25"
+  },
+  {
+    "nombre": "tofu",
+    "unidad": "kg",
+    "precio": "8,75"
+  },
+  {
+    "nombre": "tollos",
+    "unidad": "kg",
+    "precio": "3,33"
+  },
+  {
+    "nombre": "tomate cherry",
+    "unidad": "kg",
+    "precio": "4,20"
+  },
+  {
+    "nombre": "tomate ensalada",
+    "unidad": "kg",
+    "precio": "1,95"
+  },
+  {
+    "nombre": "tomate entero",
+    "unidad": "kg",
+    "precio": "0,63"
+  },
+  {
+    "nombre": "tomate frito",
+    "unidad": "kg",
+    "precio": "0,63"
+  },
+  {
+    "nombre": "tomate negro",
+    "unidad": "kg",
+    "precio": "3,25"
+  },
+  {
+    "nombre": "tomate pera",
+    "unidad": "kg",
+    "precio": "1,45"
+  },
+  {
+    "nombre": "tomate salsa",
+    "unidad": "kg",
+    "precio": "1,15"
+  },
+  {
+    "nombre": "tomate triturado",
+    "unidad": "kg",
+    "precio": "0,48"
+  },
+  {
+    "nombre": "tomillo",
+    "unidad": "unidad",
+    "precio": "0,70"
+  },
+  {
+    "nombre": "tomillo",
+    "unidad": "kg",
+    "precio": "0,64"
+  },
+  {
+    "nombre": "toronjil",
+    "unidad": "unidad",
+    "precio": "0,50"
+  },
+  {
+    "nombre": "tortellini espinaca",
+    "unidad": "kg",
+    "precio": "12,20"
+  },
+  {
+    "nombre": "tortillas de arroz",
+    "unidad": "kg",
+    "precio": "6,19"
+  },
+  {
+    "nombre": "tortitas de avena",
+    "unidad": "kg",
+    "precio": "11,68"
+  },
+  {
+    "nombre": "trigo con miel",
+    "unidad": "kg",
+    "precio": "2,38"
+  },
+  {
+    "nombre": "trigo fino",
+    "unidad": "kg",
+    "precio": "1,72"
+  },
+  {
+    "nombre": "tripa de bacalao saladas",
+    "unidad": "kg",
+    "precio": "20,18"
+  },
+  {
+    "nombre": "trompeta de la muerte deshidratada",
+    "unidad": "kg",
+    "precio": "41,00"
+  },
+  {
+    "nombre": "trucha ahumada",
+    "unidad": "kg",
+    "precio": "4,10"
+  },
+  {
+    "nombre": "trucha asalmonada",
+    "unidad": "kg",
+    "precio": "4,35"
+  },
+  {
+    "nombre": "trufa",
+    "unidad": "kg",
+    "precio": "129,67"
+  },
+  {
+    "nombre": "tubo de calamar congelado.",
+    "unidad": "kg",
+    "precio": "2,50"
+  },
+  {
+    "nombre": "turrón blando",
+    "unidad": "kg",
+    "precio": "8,61"
+  },
+  {
+    "nombre": "turrón chocolate",
+    "unidad": "unidad",
+    "precio": "3,60"
+  },
+  {
+    "nombre": "turrón de jijona",
+    "unidad": "kg",
+    "precio": "6,63"
+  },
+  {
+    "nombre": "turrón liquido",
+    "unidad": "kg",
+    "precio": "9,91"
+  },
+  {
+    "nombre": "té rojo",
+    "unidad": "sobre",
+    "precio": "0,07"
+  },
+  {
+    "nombre": "té sobre",
+    "unidad": "kg",
+    "precio": "0,04"
+  },
+  {
+    "nombre": "té verde",
+    "unidad": "sobre",
+    "precio": "0,04"
+  },
+  {
+    "nombre": "uva blanca",
+    "unidad": "kg",
+    "precio": "1,45"
+  },
+  {
+    "nombre": "uva negra",
+    "unidad": "kg",
+    "precio": "1,75"
+  },
+  {
+    "nombre": "vaina de vainilla",
+    "unidad": "kg",
+    "precio": "35,40"
+  },
+  {
+    "nombre": "ventresca de atún",
+    "unidad": "kg",
+    "precio": "37,53"
+  },
+  {
+    "nombre": "vieira fresco",
+    "unidad": "kg",
+    "precio": "31,70"
+  },
+  {
+    "nombre": "vieja fresco",
+    "unidad": "kg",
+    "precio": "12,50"
+  },
+  {
+    "nombre": "viejas congelado.",
+    "unidad": "kg",
+    "precio": "6,50"
+  },
+  {
+    "nombre": "viejas jareadas",
+    "unidad": "kg",
+    "precio": "51,25"
+  },
+  {
+    "nombre": "vieras congelado.",
+    "unidad": "kg",
+    "precio": "4,50"
+  },
+  {
+    "nombre": "vinagre agridulce",
+    "unidad": "kg",
+    "precio": "38,00"
+  },
+  {
+    "nombre": "vinagre balsámico",
+    "unidad": "kg",
+    "precio": ""
+  },
+  {
+    "nombre": "vinagre blanco",
+    "unidad": "kg",
+    "precio": "0,41"
+  },
+  {
+    "nombre": "vinagre de arroz",
+    "unidad": "kg",
+    "precio": "4,91"
+  },
+  {
+    "nombre": "vinagre de jerez",
+    "unidad": "kg",
+    "precio": "3,97"
+  },
+  {
+    "nombre": "vinagre de manzana",
+    "unidad": "kg",
+    "precio": "1,90"
+  },
+  {
+    "nombre": "vinagre de modena",
+    "unidad": "kg",
+    "precio": "9,37"
+  },
+  {
+    "nombre": "vinagre estragón",
+    "unidad": "kg",
+    "precio": "4,54"
+  },
+  {
+    "nombre": "vinagre finas hierbas",
+    "unidad": "kg",
+    "precio": "4,68"
+  },
+  {
+    "nombre": "vinagre macho",
+    "unidad": "kg",
+    "precio": "15,80"
+  },
+  {
+    "nombre": "vinagre miniatura 20 ml",
+    "unidad": "unidad",
+    "precio": "0,15"
+  },
+  {
+    "nombre": "vinagre tinto",
+    "unidad": "l",
+    "precio": "0,49"
+  },
+  {
+    "nombre": "vino blanco",
+    "unidad": "l",
+    "precio": "0,69"
+  },
+  {
+    "nombre": "vino tinto",
+    "unidad": "l",
+    "precio": "0,69"
+  },
+  {
+    "nombre": "viruta de chocolate",
+    "unidad": "kg",
+    "precio": "10,01"
+  },
+  {
+    "nombre": "viruta de trufa",
+    "unidad": "kg",
+    "precio": "72,22"
+  },
+  {
+    "nombre": "viruta lámina chocolate",
+    "unidad": "kg",
+    "precio": "11,43"
+  },
+  {
+    "nombre": "vol-au-vent 34mm",
+    "unidad": "unidad",
+    "precio": "0,13"
+  },
+  {
+    "nombre": "vol-au-vent 82mm",
+    "unidad": "unidad",
+    "precio": "0,25"
+  },
+  {
+    "nombre": "vol-au-vent pez 60mm",
+    "unidad": "unidad",
+    "precio": "0,40"
+  },
+  {
+    "nombre": "wasabi",
+    "unidad": "unidad",
+    "precio": "2,30"
+  },
+  {
+    "nombre": "yema liquida",
+    "unidad": "kg",
+    "precio": "4,10"
+  },
+  {
+    "nombre": "yogur",
+    "unidad": "kg",
+    "precio": "1,24"
+  },
+  {
+    "nombre": "yogur activvia",
+    "unidad": "unidad",
+    "precio": "0,29"
+  },
+  {
+    "nombre": "yogur liquido",
+    "unidad": "unidad",
+    "precio": "0,19"
+  },
+  {
+    "nombre": "yogur natural",
+    "unidad": "unidad",
+    "precio": "0,17"
+  },
+  {
+    "nombre": "yogur sabia",
+    "unidad": "unidad",
+    "precio": "0,34"
+  },
+  {
+    "nombre": "yogur sabores",
+    "unidad": "unidad",
+    "precio": "0,16"
+  },
+  {
+    "nombre": "yogur sabores bio soja",
+    "unidad": "unidad",
+    "precio": "0,23"
+  },
+  {
+    "nombre": "yogur sabores c-fruta",
+    "unidad": "unidad",
+    "precio": "0,28"
+  },
+  {
+    "nombre": "yogur vegetal",
+    "unidad": "unidad",
+    "precio": "1,24"
+  },
+  {
+    "nombre": "yogur vitalinea",
+    "unidad": "unidad",
+    "precio": "0,18"
+  },
+  {
+    "nombre": "yuca",
+    "unidad": "kg",
+    "precio": "2,30"
+  },
+  {
+    "nombre": "zanahoria",
+    "unidad": "kg",
+    "precio": "0,63"
+  },
+  {
+    "nombre": "zanahoria baby congelada",
+    "unidad": "kg",
+    "precio": "0,99"
+  },
+  {
+    "nombre": "zanahoria congelado.",
+    "unidad": "kg",
+    "precio": "0,67"
+  },
+  {
+    "nombre": "zanahoria rallada",
+    "unidad": "kg",
+    "precio": "0,47"
+  },
+  {
+    "nombre": "ácido de frutos",
+    "unidad": "l",
+    "precio": "8,53"
+  }
+]
